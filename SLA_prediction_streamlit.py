@@ -5,8 +5,8 @@ from datetime import datetime
 
 # --- PAGE LAYOUT CONFIGURATION ---
 st.set_page_config(
-    page_title="AI SLA Prediction Dashboard",
-    page_icon="🎫",
+    page_title="Enterprise IT SLA Intelligence Dashboard",
+    page_icon="💻",
     layout="centered"
 )
 
@@ -51,7 +51,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🎫 AI SLA Prediction Dashboard")
+# --- ENTERPRISE IT TITLE WITH IT PROFESSIONAL ICON ---
+st.title("🧑‍💻 Enterprise IT SLA Intelligence Dashboard")
 
 # --- DATA ROUTING MATRIX WITH SHORTENED IT-FRIENDLY KEYWORD REASONS ---
 INCIDENT_RULES = {
@@ -139,7 +140,7 @@ def get_sla_target(priority):
     return mapping.get(priority, 24)
 
 # --- USER SELECTION INTERFACE ---
-st.markdown('<div class="section-title">🔍 Real-Time Incident Assessment</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-title">🔍 Analyze Ticket</div>', unsafe_allow_html=True)
 
 incident_selection = st.selectbox(
     "Select Incident Type:",
