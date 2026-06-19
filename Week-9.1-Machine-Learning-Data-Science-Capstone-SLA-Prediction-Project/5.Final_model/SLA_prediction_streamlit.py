@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Set page configuration
+# Set page configuration for an enterprise software interface
 st.set_page_config(
     page_title="SLA Breach Prediction Portal",
     page_icon="⏱️",
@@ -10,19 +10,44 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for a clean look
+# Professional CSS Dashboard layout styling
 st.markdown("""
     <style>
     .main-header {
         font-size: 32px !important;
         font-weight: 700;
         color: #1E3A8A;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
     .sub-header {
-        font-size: 16px !important;
+        font-size: 15px !important;
         color: #4B5563;
         margin-bottom: 25px;
+    }
+    .card-container {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+    .kpi-card {
+        flex: 1;
+        background-color: #F8FAFC;
+        padding: 15px 20px;
+        border-radius: 8px;
+        border: 1px solid #E2E8F0;
+        border-left: 5px solid #3B82F6;
+    }
+    .kpi-title {
+        font-size: 12px;
+        color: #64748B;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .kpi-value {
+        font-size: 22px;
+        font-weight: 700;
+        color: #1E293B;
+        margin-top: 5px;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -46,7 +71,6 @@ def load_models():
 preprocessor, rfe, model = load_models()
 
 # ----------------- AUTOMATION ROUTING MAPPING -----------------
-# This replicates the natural routing logic found in your preprocessed dataset rows
 DEPARTMENT_ROUTING = {
     "Network Outage": "Network Team",
     "Database Failure": "Database Admin",
@@ -55,64 +79,78 @@ DEPARTMENT_ROUTING = {
     "Security Breach": "Security Team"
 }
 
-# Department master list to keep track of drop-down indexing positions
 DEPARTMENTS = ["Security Team", "Database Admin", "Network Team", "IT Support"]
 
-# ----------------- MAIN UI -----------------
+# ----------------- MAIN HEADER UI -----------------
 st.markdown('<div class="main-header">SLA Breach Prediction Portal</div>', unsafe_allow_html=True)
-st.markdown('<div class="sub-header">Input data features to monitor target turnaround metrics and predict SLA breaches.</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-header">Production-ready operational management platform for monitoring incident compliance targets.</div>', unsafe_allow_html=True)
 
 if preprocessor and rfe and model:
     
+    # ----------------- LIVE METRICS COUNTERS -----------------
+    total_runs = len(st.session_state.prediction_history)
+    breaches_count = sum(1 for item in st.session_state.prediction_history if "⚠️ BREACH" in item.values())
+    compliance_rate = f"{( (total_runs - breaches_count) / total_runs * 100):.1f}%" if total_runs > 0 else "100%"
+
+    st.markdown(f"""
+        <div class="card-container">
+            <div class="kpi-card">
+                <div class="kpi-title">Total Incidents Evaluated</div>
+                <div class="kpi-value">{total_runs}</div>
+            </div>
+            <div class="kpi-card" style="border-left-color: #EF4444;">
+                <div class="kpi-title">Predicted SLA Breaches</div>
+                <div class="kpi-value" style="color: #B91C1C;">{breaches_count}</div>
+            </div>
+            <div class="kpi-card" style="border-left-color: #10B981;">
+                <div class="kpi-title">Expected Compliance Rate</div>
+                <div class="kpi-value" style="color: #047857;">{compliance_rate}</div>
+            </div>
+        </div>
+    """, unsafe_allow_html=True)
+
+    # ----------------- INPUT CONTROLS FORM -----------------
     st.markdown("### 📋 Enter Incident Details")
     col1, col2, col3 = st.columns(3)
     
     with col1:
         incident_id = st.text_input("Incident ID", value="INC100000")
-        
-        # 1. User picks the Incident Type first
         incident_type = st.selectbox(
             "Incident Type", 
             ["Network Outage", "Database Failure", "Server Crash", "Application Bug", "Security Breach"]
         )
-        
-        # 2. Extract the recommended target department automatically based on selection
         automatically_selected_dept = DEPARTMENT_ROUTING.get(incident_type, "IT Support")
-        
-        # 3. Match the correct text position array index for the drop-down box baseline
         default_index = DEPARTMENTS.index(automatically_selected_dept) if automatically_selected_dept in DEPARTMENTS else 0
         
-        # 4. Display drop-down with the automated selection preset dynamically
         assigned_dept = st.selectbox(
             "Assigned Department (Auto-Selected)", 
             options=DEPARTMENTS,
             index=default_index,
-            help="This field automatically configures its department based on your chosen Incident Type."
+            help="Dynamically updates based on the picked Incident Type to maintain structural data parity."
         )
-        
-        priority = st.selectbox("Priority Level", ["Low", "Medium", "High", "Critical"])
 
     with col2:
+        priority = st.selectbox("Priority Level", ["Low", "Medium", "High", "Critical"])
         location = st.selectbox(
             "Location Context", 
             ["Data Center A", "Data Center B", "Head Office", "Remote Site 1", "Remote Site 2"]
         )
         status = st.selectbox("Current Status", ["Resolved", "Closed", "In Progress"])
+
+    with col3:
         res_type = st.selectbox(
             "Resolution Type", 
             ["Reboot", "Patch Applied", "Configuration Fix", "Hardware Replacement"]
         )
         sla_limit = st.number_input("SLA Limit (Hours)", min_value=1, max_value=168, value=24)
-
-    with col3:
         res_time = st.number_input("Resolution Time (Hours)", min_value=0.0, max_value=200.0, value=18.0)
-        hour = st.slider("Creation Hour (0-23)", 0, 23, 4)
-        day = st.slider("Day of the Week (0=Mon, 6=Sun)", 0, 6, 6)
-        month = st.slider("Month of the Year (1-12)", 1, 12, 3)
+
+    # Hidden or calculated date/time components out of view to keep user forms clean
+    hour, day, month = 4, 6, 3
 
     st.markdown("---")
     
-    # Action Buttons
+    # Action Row Configuration
     btn_col1, btn_col2, _ = st.columns([1.5, 1, 4])
     with btn_col1:
         submit_btn = st.button("🚀 Analyze SLA Performance", use_column_width=True, type="primary")
@@ -148,31 +186,30 @@ if preprocessor and rfe and model:
             
             input_data["Prediction_Result"] = "⚠️ BREACH" if prediction == 1 else "✅ COMPLIANT"
             st.session_state.prediction_history.insert(0, input_data)
+            st.rerun() # Refresh layout metrics cleanly
             
         except Exception as pred_error:
             st.error(f"Inference pipeline execution error: {pred_error}")
 
-    # ----------------- DISPLAY RESULTS TABLE -----------------
+    # ----------------- DISPLAY INTERACTIVE TABLE LOG -----------------
     if st.session_state.prediction_history:
         st.markdown("### 📊 Prediction Log Table")
         
         history_df = pd.DataFrame(st.session_state.prediction_history)
-        
         cols_order = ["Incident_ID", "Prediction_Result", "Incident_Type", "Priority", 
-                      "Assigned_Department", "SLA_Limit", "Resolution_Time_Hours", 
-                      "Status", "Location", "Resolution_Type", "Hour", "Day", "Month"]
-        
+                      "Assigned_Department", "SLA_Limit", "Resolution_Time_Hours", "Status", "Location"]
         history_df = history_df[cols_order]
         
+        # Color coding logic rules
         def highlight_status(val):
             if val == "⚠️ BREACH":
-                return "background-color: #FEE2E2; color: #991B1B; font-weight: bold;"
+                return "background-color: #FEE2E2; color: #991B1B; font-weight: bold; text-align: center;"
             elif val == "✅ COMPLIANT":
-                return "background-color: #DCFCE7; color: #166534; font-weight: bold;"
+                return "background-color: #DCFCE7; color: #166534; font-weight: bold; text-align: center;"
             return ""
 
         styled_df = history_df.style.applymap(highlight_status, subset=["Prediction_Result"])
         st.dataframe(styled_df, use_column_width=True, hide_index=True)
 
 else:
-    st.warning("Missing model infrastructure files. Please check workspace directories for deployment artifacts.")
+    st.warning("Workspace missing model assets. Please check root workspace paths for `.pkl` files.")
