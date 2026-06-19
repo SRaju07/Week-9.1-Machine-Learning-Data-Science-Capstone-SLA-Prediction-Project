@@ -18,19 +18,9 @@ st.markdown("""
         padding-top: 2rem !important;
     }
     
-    /* Clean Framed Ticket Container Box */
-    .ticket-container {
-        border: 1px solid #E2E8F0;
-        border-radius: 8px;
-        padding: 24px;
-        background-color: #FFFFFF;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-        margin-top: 15px;
-    }
-    
     /* Box Interior Headings */
     .section-title {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 600;
         color: #0F172A;
         margin-bottom: 20px;
@@ -63,7 +53,7 @@ st.markdown("""
 
 st.title("🎫 AI SLA Prediction Dashboard")
 
-# --- DATA ROUTING MATRIX WITH NON-IT FRIENDLY REASONS ---
+# --- DATA ROUTING MATRIX WITH SHORTENED IT-FRIENDLY KEYWORD REASONS ---
 INCIDENT_RULES = {
     "Outlook / Email Issue": {
         "category": "Software",
@@ -71,9 +61,9 @@ INCIDENT_RULES = {
         "team_display": "MS Office Team",
         "remote": "Yes",
         "reasons": [
-            "The connection between your company's computer system and Microsoft's cloud systems broke. Because they can't talk to each other, emails stop moving.",
-            "The hidden file on your computer that saves a local copy of your emails got corrupted or broken. The computer has to slowly rebuild the entire index of your history from scratch.",
-            "The digital security badge your computer uses to log you in automatically expired, or the company stopped allowing old, insecure ways of logging in."
+            "**Cloud Sync Failure:** Broken connection between local systems and Microsoft cloud.",
+            "**Corrupted Local Index:** Damaged email cache files forcing a slow, complete history rebuild.",
+            "**Authentication Expiry:** Outdated or expired security tokens blocking automated login access."
         ]
     },
     "VPN Issue": {
@@ -82,9 +72,9 @@ INCIDENT_RULES = {
         "team_display": "Applications Team",
         "remote": "Yes",
         "reasons": [
-            "Your local internet provider (like Comcast or AT&T) is having a traffic jam in your neighborhood or city, making the connection too slow to hold a secure link.",
-            "The computer that checks your password took too long to answer, or the digital safety 'passport' required to establish a secure connection expired.",
-            "The digital door to your company's network only lets a certain number of people in at the exact same time. The door is completely full, and you have to wait for someone to log off."
+            "**ISP Bandwidth Throttling:** Local provider congestion making connection speeds too slow.",
+            "**Gateway Timeout:** Authentication server took too long to reply or token expired.",
+            "**Tunnel Capacity Maxed:** Maximum concurrent user limit reached on the corporate gateway."
         ]
     },
     "Firewall Outage": {
@@ -93,9 +83,9 @@ INCIDENT_RULES = {
         "team_display": "Network Team",
         "remote": "Yes",
         "reasons": [
-            "Someone updated the security guard software with bad instructions. The guard started blocking everyone, so the team has to undo the update and restore the old version.",
-            "The physical security machine got overwhelmed by checking too much internet traffic at once, overheated or froze up, and stopped working entirely.",
-            "The main network line went down, and the backup line tried to take over. However, the rest of the internet is taking a long time to realize where the new backup line is located."
+            "**Bad Policy Deployment:** Faulty security rule update blocking legitimate traffic.",
+            "**Resource Exhaustion:** Hardware CPU/Memory overloaded by high traffic volumes.",
+            "**Failover Desync:** Failover backup line routing propagation delays."
         ]
     },
     "Database Failure": {
@@ -104,9 +94,9 @@ INCIDENT_RULES = {
         "team_display": "Database Team",
         "remote": "Yes",
         "reasons": [
-            "Two massive, poorly written data searches are trying to edit the exact same file at the exact same time. They are stuck staring at each other, blocking anyone else from using the database.",
-            "The database keeps a diary of everything it does. The hard drive holding that diary filled up completely, so it cannot save any new information.",
-            "The backup database cannot copy information fast enough to keep up with the main database. To avoid losing data, the system forces everyone to freeze and wait."
+            "**Query Deadlocks:** Conflicting heavy queries locking the same database tables.",
+            "**Transaction Log Full:** Storage drive full from diary logging, blocking new changes.",
+            "**Replication Lag:** Primary database halted due to slow backup sync replication."
         ]
     },
     "Server Crash": {
@@ -115,9 +105,9 @@ INCIDENT_RULES = {
         "team_display": "Infrastructure Team",
         "remote": "Yes",
         "reasons": [
-            "The very core of the server's brain got completely confused and shut itself down to prevent damage, or a background app slowly hogged all the memory until nothing was left.",
-            "The actual physical computer box hosting multiple virtual systems suffered a hardware failure (like a blown power supply).",
-            "A programmer updated an app with bad code. When it launched, it crashed, which caused the next app to crash, creating a domino effect that brought down the whole system."
+            "**Kernel Panic / Memory Leak:** System memory leak or fatal OS crash.",
+            "**Hardware Component Failure:** Power supply unit (PSU) or drive array physical failure.",
+            "**Cascading Application Error:** Unhandled bad deployment causing a domino-effect crash."
         ]
     },
     "Motherboard": {
@@ -126,9 +116,9 @@ INCIDENT_RULES = {
         "team_display": "IT Support Team",
         "remote": "No",
         "reasons": [
-            "We know what is broken, but we don't have the spare part in the office. We are stuck waiting for the mail delivery truck to arrive.",
-            "The IT team is ready to fix the computer, but the employee is away, busy in meetings, or hasn't brought the broken laptop to the IT desk yet.",
-            "The problem isn't simple. IT has to completely unscrew the laptop, take out the main circuit board, and use special tools to test it step-by-step to find the broken piece."
+            "**Supply Chain Delay:** Required replacement spare parts pending courier delivery.",
+            "**User Availability:** Device physical turnover delayed by user scheduling conflicts.",
+            "**Complex Diagnostics:** Lengthy manual teardown and circuit board diagnostic testing."
         ]
     },
     "Wi-Fi Connectivity Drop": {
@@ -137,9 +127,9 @@ INCIDENT_RULES = {
         "team_display": "Network Team",
         "remote": "No",
         "reasons": [
-            "The physical Wi-Fi box on the wall or ceiling broke down or lost power in that specific area.",
-            "Something in the room (like a microwave, heavy electronics, or someone else's personal Wi-Fi router) is drowning out the official office Wi-Fi signal.",
-            "The office has thick concrete walls, heavy metal pillars, or glass that the Wi-Fi signals cannot easily pass through."
+            "**Access Point Outage:** Physical PoE wall/ceiling AP unit power drop.",
+            "**RF Interference:** Heavy appliance or rogue electronic frequencies disrupting signals.",
+            "**Structural Attenuation:** Thick concrete, metal deck framing, or dense glass obstacles."
         ]
     }
 }
@@ -149,8 +139,7 @@ def get_sla_target(priority):
     return mapping.get(priority, 24)
 
 # --- USER SELECTION INTERFACE ---
-st.markdown('<div class="ticket-container">', unsafe_allow_html=True)
-st.markdown('<div class="section-title">Create / Analyze Ticket</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-title">🔍 Real-Time Incident Assessment</div>', unsafe_allow_html=True)
 
 incident_selection = st.selectbox(
     "Select Incident Type:",
@@ -249,5 +238,3 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
         st.error("Model tracking error: Ensure 'preprocessor.pkl', 'rfe_selector.pkl', and 'SLA_prediction_model.pkl' are saved inside this exact script folder directory.")
     except Exception as e:
         st.error(f"Execution processing breakdown error: {e}")
-
-st.markdown('</div>', unsafe_allow_html=True)
