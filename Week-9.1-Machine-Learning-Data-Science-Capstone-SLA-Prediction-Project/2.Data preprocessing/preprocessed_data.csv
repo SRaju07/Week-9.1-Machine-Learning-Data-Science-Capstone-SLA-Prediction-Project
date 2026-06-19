@@ -1,0 +1,1201 @@
+Incident_ID,Incident_Type,Priority,Assigned_Department,Location,Status,Resolution_Type,Resolution_Time_Hours,Hour,Day,Month,SLA_Limit,SLA_Breached
+INC100000,Network Outage,Low,Security Team,Data Center B,Resolved,Reboot,18.0,4,6,3,24,0
+INC100001,Database Failure,Low,Database Admin,Remote Site 1,Resolved,Reboot,35.0,20,3,1,24,0
+INC100002,Server Crash,Medium,Database Admin,Remote Site 2,Closed,Patch Applied,72.0,1,2,1,12,1
+INC100003,Database Failure,Critical,Network Team,Remote Site 1,Resolved,Reboot,36.0,3,5,7,4,1
+INC100004,Server Crash,Critical,Security Team,Head Office,Resolved,Configuration Fix,28.0,1,4,2,4,1
+INC100005,Network Outage,Low,DevOps,Data Center A,Resolved,Security Mitigation,45.0,12,3,5,24,1
+INC100006,Security Breach,Low,DevOps,Remote Site 2,Resolved,Reboot,35.0,14,0,2,24,0
+INC100007,Database Failure,High,Database Admin,Head Office,Resolved,Reboot,35.0,1,1,7,8,0
+INC100008,Network Outage,Medium,Security Team,Data Center A,Resolved,Reboot,0.0,22,4,10,12,0
+INC100009,Application Bug,High,DevOps,Head Office,Resolved,Configuration Fix,48.0,12,6,2,8,1
+INC100010,Server Crash,High,IT Support,Remote Site 2,Resolved,Security Mitigation,22.0,17,6,8,8,1
+INC100011,Server Crash,Medium,DevOps,Remote Site 1,Closed,Patch Applied,72.0,3,1,4,12,1
+INC100012,Security Breach,Low,Network Team,Data Center A,Resolved,Hardware Replacement,41.0,18,1,10,24,1
+INC100013,Security Breach,Low,Network Team,Remote Site 2,Resolved,Patch Applied,41.0,3,5,10,24,1
+INC100014,Application Bug,Critical,DevOps,Data Center B,Resolved,Patch Applied,18.0,9,6,3,4,1
+INC100015,Database Failure,High,Database Admin,Remote Site 1,Resolved,Configuration Fix,52.0,10,5,11,8,1
+INC100016,Server Crash,Medium,Database Admin,Remote Site 1,Resolved,Reboot,7.0,0,3,2,12,0
+INC100017,Server Crash,Medium,DevOps,Remote Site 2,Resolved,Hardware Replacement,50.0,16,0,1,12,1
+INC100018,Database Failure,Critical,Database Admin,Head Office,Closed,Reboot,71.0,11,2,11,4,1
+INC100019,Network Outage,High,Security Team,Data Center A,Resolved,Patch Applied,56.0,4,2,4,8,1
+INC100020,Application Bug,Low,Security Team,Remote Site 2,Resolved,Security Mitigation,23.0,1,1,9,24,0
+INC100021,Network Outage,High,Database Admin,Remote Site 2,Resolved,Configuration Fix,20.0,21,4,3,8,1
+INC100022,Server Crash,Low,Database Admin,Head Office,Resolved,Reboot,3.0,18,5,6,24,0
+INC100023,Security Breach,High,Network Team,Data Center A,Resolved,Reboot,11.0,5,5,3,8,1
+INC100024,Application Bug,Low,Database Admin,Data Center B,Closed,Security Mitigation,61.0,19,1,2,24,1
+INC100025,Server Crash,High,Database Admin,Remote Site 2,Resolved,Security Mitigation,28.0,10,4,5,8,1
+INC100026,Server Crash,High,DevOps,Head Office,Closed,Hardware Replacement,67.0,12,2,5,8,1
+INC100027,Network Outage,Medium,Network Team,Data Center A,Resolved,Security Mitigation,3.0,9,3,4,12,0
+INC100028,Database Failure,Medium,Database Admin,Data Center B,Resolved,Reboot,10.0,10,2,1,12,0
+INC100029,Server Crash,Low,IT Support,Head Office,Closed,Patch Applied,66.0,4,3,1,24,1
+INC100030,Security Breach,Critical,Network Team,Remote Site 2,Closed,Patch Applied,61.0,3,3,2,4,1
+INC100031,Application Bug,Critical,Network Team,Data Center A,Resolved,Configuration Fix,56.0,2,5,2,4,1
+INC100032,Application Bug,Critical,DevOps,Data Center A,Resolved,Reboot,13.0,20,5,8,4,1
+INC100033,Application Bug,High,IT Support,Data Center B,Resolved,Security Mitigation,25.0,9,2,3,8,1
+INC100034,Application Bug,Medium,DevOps,Data Center B,Closed,Patch Applied,60.0,1,4,4,12,1
+INC100035,Network Outage,Critical,Database Admin,Data Center A,Closed,Reboot,70.0,6,3,1,4,1
+INC100036,Network Outage,Medium,Network Team,Remote Site 1,Closed,Patch Applied,62.0,18,4,6,12,1
+INC100037,Application Bug,Low,Network Team,Remote Site 1,Resolved,Configuration Fix,50.0,17,0,1,24,1
+INC100038,Application Bug,High,DevOps,Remote Site 2,Closed,Patch Applied,63.0,22,1,8,8,1
+INC100039,Server Crash,High,Network Team,Data Center A,Closed,Reboot,70.0,16,1,7,8,1
+INC100040,Security Breach,Low,IT Support,Remote Site 2,Closed,Security Mitigation,65.0,17,1,6,24,1
+INC100041,Server Crash,Low,Database Admin,Data Center A,Resolved,Reboot,24.0,14,3,10,24,0
+INC100042,Database Failure,Low,Network Team,Remote Site 1,Resolved,Security Mitigation,32.0,22,5,2,24,1
+INC100043,Database Failure,Low,Database Admin,Data Center A,Closed,Configuration Fix,67.0,2,3,5,24,1
+INC100044,Security Breach,Medium,Security Team,Data Center B,Resolved,Patch Applied,51.0,15,6,3,12,1
+INC100045,Security Breach,Critical,Security Team,Data Center A,Resolved,Security Mitigation,59.0,4,3,1,4,1
+INC100046,Database Failure,Low,IT Support,Remote Site 2,Closed,Configuration Fix,65.0,18,2,3,24,1
+INC100047,Server Crash,High,IT Support,Data Center B,Resolved,Patch Applied,37.0,3,0,5,8,1
+INC100048,Application Bug,High,Database Admin,Remote Site 2,Closed,Configuration Fix,71.0,16,2,1,8,1
+INC100049,Network Outage,Medium,Security Team,Data Center A,Resolved,Security Mitigation,14.0,16,2,10,12,1
+INC100050,Server Crash,High,Security Team,Remote Site 2,Resolved,Patch Applied,44.0,21,1,3,8,1
+INC100051,Security Breach,Critical,Security Team,Data Center A,Resolved,Configuration Fix,55.0,12,3,2,4,1
+INC100052,Network Outage,Low,Security Team,Data Center B,Resolved,Patch Applied,34.0,11,0,8,24,1
+INC100053,Application Bug,Critical,Database Admin,Data Center A,Resolved,Patch Applied,10.0,4,3,2,4,1
+INC100054,Database Failure,Low,Security Team,Remote Site 2,Resolved,Hardware Replacement,19.0,14,6,7,24,0
+INC100055,Server Crash,Low,Security Team,Head Office,Resolved,Configuration Fix,6.0,20,5,11,24,0
+INC100056,Server Crash,Medium,IT Support,Head Office,Closed,Hardware Replacement,72.0,6,0,9,12,1
+INC100057,Database Failure,Medium,Network Team,Data Center B,Resolved,Hardware Replacement,23.0,5,4,11,12,1
+INC100058,Network Outage,Medium,Security Team,Remote Site 1,Resolved,Configuration Fix,32.0,19,0,9,12,1
+INC100059,Server Crash,Low,DevOps,Data Center A,Closed,Patch Applied,61.0,1,6,10,24,1
+INC100060,Server Crash,Critical,Security Team,Head Office,Resolved,Patch Applied,30.0,1,0,10,4,1
+INC100061,Network Outage,Medium,DevOps,Head Office,Resolved,Configuration Fix,9.0,2,4,4,12,0
+INC100062,Security Breach,Critical,Database Admin,Head Office,Resolved,Reboot,4.0,14,5,11,4,0
+INC100063,Security Breach,Medium,Database Admin,Head Office,Resolved,Security Mitigation,14.0,1,6,1,12,1
+INC100064,Application Bug,High,Security Team,Remote Site 1,Closed,Reboot,66.0,22,3,7,8,1
+INC100065,Application Bug,Medium,Security Team,Data Center A,Resolved,Reboot,56.0,22,3,8,12,1
+INC100066,Database Failure,Medium,Security Team,Remote Site 1,Resolved,Security Mitigation,43.0,21,2,1,12,1
+INC100067,Security Breach,Low,Security Team,Remote Site 2,Resolved,Configuration Fix,53.0,13,0,4,24,1
+INC100068,Application Bug,High,Database Admin,Data Center B,Resolved,Hardware Replacement,54.0,11,2,3,8,1
+INC100069,Server Crash,High,DevOps,Remote Site 2,Resolved,Configuration Fix,1.0,13,4,10,8,0
+INC100070,Security Breach,Medium,DevOps,Remote Site 2,Resolved,Hardware Replacement,42.0,1,4,7,12,1
+INC100071,Application Bug,Critical,Network Team,Remote Site 2,Resolved,Reboot,22.0,12,0,6,4,1
+INC100072,Security Breach,High,IT Support,Data Center B,Resolved,Patch Applied,40.0,15,5,8,8,1
+INC100073,Server Crash,Medium,IT Support,Data Center A,Closed,Security Mitigation,61.0,13,6,3,12,1
+INC100074,Network Outage,Critical,DevOps,Remote Site 2,Resolved,Hardware Replacement,50.0,8,3,3,4,1
+INC100075,Application Bug,Medium,Network Team,Data Center A,Resolved,Hardware Replacement,14.0,16,3,10,12,1
+INC100076,Server Crash,Medium,Database Admin,Remote Site 1,Closed,Patch Applied,72.0,3,3,1,12,1
+INC100077,Network Outage,Critical,Network Team,Remote Site 1,Closed,Security Mitigation,68.0,20,3,8,4,1
+INC100078,Database Failure,High,DevOps,Remote Site 2,Closed,Hardware Replacement,65.0,4,5,10,8,1
+INC100079,Database Failure,Critical,Network Team,Remote Site 1,Resolved,Patch Applied,34.0,14,6,6,4,1
+INC100080,Security Breach,Critical,Network Team,Head Office,Resolved,Configuration Fix,10.0,3,3,5,4,1
+INC100081,Server Crash,High,Security Team,Head Office,Closed,Reboot,70.0,19,3,10,8,1
+INC100082,Server Crash,Medium,Network Team,Remote Site 1,Resolved,Patch Applied,20.0,20,5,8,12,1
+INC100083,Network Outage,Critical,DevOps,Head Office,Closed,Hardware Replacement,60.0,5,3,7,4,1
+INC100084,Network Outage,Medium,DevOps,Remote Site 1,Resolved,Security Mitigation,3.0,20,0,11,12,0
+INC100085,Application Bug,Critical,IT Support,Head Office,Resolved,Hardware Replacement,50.0,22,3,4,4,1
+INC100086,Database Failure,Medium,DevOps,Data Center B,Resolved,Hardware Replacement,56.0,3,2,4,12,1
+INC100087,Network Outage,Critical,Security Team,Remote Site 1,Resolved,Hardware Replacement,22.0,4,2,9,4,1
+INC100088,Server Crash,Low,DevOps,Remote Site 2,Resolved,Reboot,4.0,15,3,7,24,0
+INC100089,Application Bug,Medium,DevOps,Data Center B,Resolved,Hardware Replacement,34.0,3,3,1,12,1
+INC100090,Security Breach,Medium,DevOps,Head Office,Resolved,Configuration Fix,49.0,4,3,4,12,1
+INC100091,Application Bug,High,IT Support,Remote Site 1,Closed,Reboot,0.0,14,6,1,8,0
+INC100092,Security Breach,Medium,IT Support,Data Center A,Resolved,Patch Applied,4.0,10,5,9,12,0
+INC100093,Server Crash,Low,Database Admin,Data Center B,Resolved,Hardware Replacement,17.0,10,4,3,24,0
+INC100094,Network Outage,Medium,DevOps,Head Office,Resolved,Patch Applied,48.0,18,2,9,12,1
+INC100095,Database Failure,Low,Network Team,Head Office,Resolved,Configuration Fix,4.0,21,1,2,24,0
+INC100096,Database Failure,Critical,DevOps,Data Center B,Resolved,Reboot,32.0,22,4,1,4,1
+INC100097,Security Breach,Low,Database Admin,Data Center A,Closed,Hardware Replacement,69.0,12,6,4,24,1
+INC100098,Security Breach,Low,Database Admin,Head Office,Resolved,Hardware Replacement,54.0,7,4,1,24,1
+INC100099,Network Outage,Critical,Security Team,Remote Site 1,Resolved,Hardware Replacement,20.0,10,3,8,4,1
+INC100100,Server Crash,High,Database Admin,Remote Site 2,Closed,Hardware Replacement,62.0,9,5,9,8,1
+INC100101,Application Bug,High,Security Team,Data Center B,Resolved,Configuration Fix,12.0,13,3,10,8,1
+INC100102,Application Bug,Medium,DevOps,Remote Site 2,Resolved,Configuration Fix,49.0,7,5,7,12,1
+INC100103,Network Outage,Critical,Security Team,Data Center B,Resolved,Configuration Fix,28.0,10,5,6,4,1
+INC100104,Security Breach,High,Security Team,Remote Site 2,Resolved,Security Mitigation,36.0,8,1,8,8,1
+INC100105,Network Outage,Medium,IT Support,Data Center B,Resolved,Hardware Replacement,53.0,18,0,9,12,1
+INC100106,Database Failure,Medium,DevOps,Remote Site 1,Resolved,Reboot,3.0,23,5,6,12,0
+INC100107,Security Breach,Medium,DevOps,Data Center B,Resolved,Hardware Replacement,48.0,12,6,4,12,1
+INC100108,Database Failure,High,DevOps,Remote Site 2,Resolved,Hardware Replacement,46.0,21,0,4,8,1
+INC100109,Security Breach,High,Security Team,Data Center B,Resolved,Configuration Fix,25.0,4,6,2,8,1
+INC100110,Network Outage,Medium,Network Team,Data Center B,Closed,Configuration Fix,62.0,2,0,9,12,1
+INC100111,Database Failure,High,IT Support,Data Center B,Resolved,Configuration Fix,30.0,2,3,4,8,1
+INC100112,Server Crash,High,IT Support,Remote Site 2,Resolved,Reboot,36.0,4,1,2,8,1
+INC100113,Network Outage,High,Network Team,Remote Site 1,Resolved,Security Mitigation,2.0,0,0,2,8,0
+INC100114,Security Breach,Critical,DevOps,Remote Site 1,Resolved,Reboot,24.0,7,4,4,4,1
+INC100115,Security Breach,Critical,IT Support,Data Center A,Closed,Reboot,63.0,18,3,5,4,1
+INC100116,Database Failure,Low,Network Team,Data Center B,Resolved,Reboot,39.0,20,3,10,24,1
+INC100117,Server Crash,Low,Database Admin,Remote Site 1,Resolved,Security Mitigation,29.0,22,3,7,24,1
+INC100118,Application Bug,Critical,DevOps,Head Office,Resolved,Configuration Fix,55.0,14,6,10,4,1
+INC100119,Database Failure,Low,Database Admin,Data Center A,Resolved,Patch Applied,27.0,10,1,11,24,1
+INC100120,Security Breach,Low,Network Team,Data Center B,Closed,Reboot,71.0,7,3,2,24,1
+INC100121,Server Crash,Low,DevOps,Remote Site 1,Closed,Configuration Fix,61.0,7,4,8,24,1
+INC100122,Network Outage,Medium,Security Team,Head Office,Resolved,Reboot,59.0,22,1,8,12,1
+INC100123,Server Crash,High,Database Admin,Data Center B,Resolved,Security Mitigation,15.0,2,5,5,8,1
+INC100124,Server Crash,Medium,Security Team,Data Center B,Resolved,Patch Applied,8.0,8,3,1,12,0
+INC100125,Security Breach,High,DevOps,Data Center A,Resolved,Hardware Replacement,39.0,23,5,6,8,1
+INC100126,Security Breach,Critical,DevOps,Data Center A,Resolved,Hardware Replacement,6.0,3,1,7,4,1
+INC100127,Security Breach,High,IT Support,Data Center A,Resolved,Configuration Fix,3.0,3,1,3,8,0
+INC100128,Database Failure,Low,Network Team,Remote Site 1,Resolved,Configuration Fix,57.0,3,2,6,24,1
+INC100129,Server Crash,Critical,DevOps,Data Center A,Resolved,Hardware Replacement,45.0,10,6,6,4,1
+INC100130,Security Breach,High,IT Support,Data Center B,Resolved,Hardware Replacement,53.0,13,0,4,8,1
+INC100131,Security Breach,Critical,Database Admin,Data Center A,Resolved,Configuration Fix,12.0,5,1,6,4,1
+INC100132,Security Breach,High,IT Support,Remote Site 1,Closed,Reboot,66.0,5,1,10,8,1
+INC100133,Database Failure,Critical,DevOps,Data Center A,Closed,Configuration Fix,67.0,0,1,3,4,1
+INC100134,Database Failure,Critical,DevOps,Data Center A,Resolved,Security Mitigation,35.0,11,6,3,4,1
+INC100135,Server Crash,High,DevOps,Remote Site 1,Resolved,Security Mitigation,4.0,10,6,2,8,0
+INC100136,Server Crash,Medium,Security Team,Remote Site 2,Closed,Hardware Replacement,71.0,16,4,1,12,1
+INC100137,Network Outage,Medium,IT Support,Remote Site 1,Resolved,Patch Applied,16.0,6,1,11,12,1
+INC100138,Application Bug,High,Database Admin,Head Office,Closed,Hardware Replacement,62.0,19,1,5,8,1
+INC100139,Server Crash,Critical,Database Admin,Data Center B,Resolved,Security Mitigation,25.0,22,4,5,4,1
+INC100140,Database Failure,Medium,IT Support,Head Office,Resolved,Configuration Fix,54.0,17,4,9,12,1
+INC100141,Database Failure,High,IT Support,Head Office,Resolved,Security Mitigation,39.0,19,2,9,8,1
+INC100142,Database Failure,Critical,Network Team,Remote Site 1,Closed,Configuration Fix,62.0,20,1,7,4,1
+INC100143,Security Breach,Critical,DevOps,Head Office,Resolved,Patch Applied,25.0,19,2,10,4,1
+INC100144,Database Failure,Critical,Network Team,Remote Site 1,Resolved,Hardware Replacement,41.0,21,0,1,4,1
+INC100145,Application Bug,Critical,Network Team,Remote Site 1,Resolved,Patch Applied,5.0,7,0,11,4,1
+INC100146,Database Failure,High,IT Support,Remote Site 1,Closed,Hardware Replacement,68.0,0,6,2,8,1
+INC100147,Network Outage,Medium,DevOps,Data Center B,Closed,Configuration Fix,61.0,12,4,1,12,1
+INC100148,Security Breach,Critical,IT Support,Head Office,Closed,Hardware Replacement,69.0,22,3,10,4,1
+INC100149,Security Breach,Critical,Database Admin,Data Center A,Resolved,Patch Applied,9.0,18,0,7,4,1
+INC100150,Security Breach,Medium,IT Support,Remote Site 1,Resolved,Hardware Replacement,13.0,14,5,2,12,1
+INC100151,Server Crash,High,IT Support,Data Center A,Resolved,Configuration Fix,8.0,17,5,4,8,0
+INC100152,Security Breach,High,DevOps,Data Center B,Closed,Hardware Replacement,68.0,8,6,3,8,1
+INC100153,Database Failure,Medium,Network Team,Data Center B,Resolved,Security Mitigation,49.0,22,5,1,12,1
+INC100154,Server Crash,Critical,Database Admin,Data Center B,Closed,Configuration Fix,60.0,6,2,3,4,1
+INC100155,Application Bug,High,IT Support,Remote Site 1,Resolved,Security Mitigation,37.0,14,6,11,8,1
+INC100156,Server Crash,Low,DevOps,Head Office,Resolved,Hardware Replacement,39.0,13,4,7,24,1
+INC100157,Security Breach,Critical,Security Team,Data Center B,Closed,Reboot,62.0,7,5,5,4,1
+INC100158,Server Crash,Critical,Database Admin,Head Office,Resolved,Configuration Fix,38.0,4,0,7,4,1
+INC100159,Network Outage,Critical,Security Team,Data Center A,Resolved,Security Mitigation,7.0,4,4,7,4,1
+INC100160,Application Bug,High,Network Team,Remote Site 2,Resolved,Patch Applied,46.0,17,0,9,8,1
+INC100161,Server Crash,High,Network Team,Data Center A,Resolved,Configuration Fix,6.0,8,0,11,8,0
+INC100162,Application Bug,Low,Database Admin,Head Office,Resolved,Reboot,17.0,23,4,9,24,0
+INC100163,Security Breach,High,DevOps,Data Center B,Resolved,Security Mitigation,17.0,12,5,3,8,1
+INC100164,Security Breach,High,Network Team,Head Office,Closed,Configuration Fix,62.0,23,3,11,8,1
+INC100165,Security Breach,Low,DevOps,Data Center A,Resolved,Hardware Replacement,29.0,1,6,2,24,1
+INC100166,Database Failure,High,IT Support,Remote Site 1,Resolved,Security Mitigation,34.0,18,4,1,8,1
+INC100167,Network Outage,Critical,Security Team,Head Office,Resolved,Configuration Fix,49.0,12,3,7,4,1
+INC100168,Network Outage,Medium,DevOps,Data Center A,Closed,Configuration Fix,72.0,11,1,7,12,1
+INC100169,Database Failure,Medium,IT Support,Remote Site 1,Resolved,Hardware Replacement,39.0,9,2,11,12,1
+INC100170,Network Outage,Medium,IT Support,Data Center A,Closed,Reboot,64.0,21,5,4,12,1
+INC100171,Network Outage,Medium,Database Admin,Data Center B,Resolved,Configuration Fix,59.0,15,6,5,12,1
+INC100172,Database Failure,Critical,Database Admin,Data Center B,Resolved,Reboot,54.0,5,1,10,4,1
+INC100173,Application Bug,Critical,Security Team,Data Center A,Resolved,Patch Applied,48.0,14,4,8,4,1
+INC100174,Application Bug,Critical,Network Team,Head Office,Resolved,Security Mitigation,48.0,21,5,2,4,1
+INC100175,Security Breach,Low,DevOps,Head Office,Resolved,Hardware Replacement,16.0,18,1,3,24,0
+INC100176,Network Outage,Medium,Database Admin,Data Center A,Resolved,Patch Applied,43.0,6,3,1,12,1
+INC100177,Server Crash,Medium,IT Support,Remote Site 2,Resolved,Patch Applied,28.0,17,0,3,12,1
+INC100178,Security Breach,Medium,Database Admin,Data Center A,Resolved,Patch Applied,19.0,15,3,4,12,1
+INC100179,Database Failure,High,Network Team,Data Center A,Resolved,Patch Applied,4.0,15,1,8,8,0
+INC100180,Network Outage,High,Network Team,Remote Site 2,Resolved,Patch Applied,3.0,12,5,4,8,0
+INC100181,Security Breach,Low,Network Team,Remote Site 1,Resolved,Reboot,15.0,13,4,6,24,0
+INC100182,Application Bug,Critical,Security Team,Remote Site 2,Resolved,Hardware Replacement,14.0,15,6,7,4,1
+INC100183,Database Failure,Medium,Database Admin,Data Center A,Closed,Configuration Fix,67.0,5,3,9,12,1
+INC100184,Application Bug,Low,IT Support,Remote Site 1,Resolved,Hardware Replacement,52.0,5,2,10,24,1
+INC100185,Network Outage,Critical,DevOps,Data Center A,Resolved,Configuration Fix,11.0,22,5,11,4,1
+INC100186,Database Failure,Medium,IT Support,Data Center B,Closed,Configuration Fix,71.0,20,2,4,12,1
+INC100187,Application Bug,High,DevOps,Remote Site 2,Resolved,Reboot,56.0,15,3,7,8,1
+INC100188,Network Outage,Medium,DevOps,Remote Site 1,Resolved,Hardware Replacement,30.0,3,2,10,12,1
+INC100189,Security Breach,Critical,DevOps,Remote Site 1,Resolved,Configuration Fix,13.0,0,4,9,4,1
+INC100190,Application Bug,High,Security Team,Head Office,Resolved,Hardware Replacement,20.0,11,3,11,8,1
+INC100191,Network Outage,Low,IT Support,Data Center A,Resolved,Configuration Fix,13.0,9,0,5,24,0
+INC100192,Server Crash,Low,Database Admin,Remote Site 2,Resolved,Reboot,43.0,17,2,7,24,1
+INC100193,Application Bug,High,DevOps,Data Center A,Resolved,Security Mitigation,37.0,13,1,11,8,1
+INC100194,Security Breach,High,IT Support,Remote Site 2,Resolved,Patch Applied,28.0,4,5,6,8,1
+INC100195,Application Bug,Medium,IT Support,Head Office,Closed,Configuration Fix,72.0,13,1,10,12,1
+INC100196,Network Outage,High,Database Admin,Data Center B,Resolved,Security Mitigation,55.0,12,2,10,8,1
+INC100197,Database Failure,Low,Database Admin,Head Office,Resolved,Configuration Fix,24.0,21,2,1,24,0
+INC100198,Security Breach,High,Security Team,Data Center A,Resolved,Security Mitigation,19.0,22,5,3,8,1
+INC100199,Application Bug,Low,Network Team,Data Center A,Closed,Patch Applied,68.0,7,3,2,24,1
+INC100200,Application Bug,Critical,DevOps,Head Office,Resolved,Configuration Fix,48.0,17,4,2,4,1
+INC100201,Security Breach,Low,IT Support,Data Center B,Resolved,Reboot,7.0,17,4,2,24,0
+INC100202,Security Breach,Critical,DevOps,Remote Site 1,Resolved,Hardware Replacement,57.0,5,4,7,4,1
+INC100203,Security Breach,Medium,Database Admin,Data Center A,Resolved,Reboot,56.0,19,5,4,12,1
+INC100204,Security Breach,Critical,Database Admin,Head Office,Resolved,Hardware Replacement,29.0,12,1,1,4,1
+INC100205,Database Failure,Low,IT Support,Data Center B,Resolved,Patch Applied,28.0,21,4,4,24,1
+INC100206,Security Breach,High,Security Team,Data Center A,Closed,Hardware Replacement,64.0,15,2,1,8,1
+INC100207,Server Crash,Medium,DevOps,Remote Site 2,Resolved,Security Mitigation,30.0,4,2,8,12,1
+INC100208,Database Failure,High,IT Support,Remote Site 1,Resolved,Hardware Replacement,6.0,3,0,10,8,0
+INC100209,Network Outage,Critical,IT Support,Head Office,Resolved,Security Mitigation,55.0,12,0,7,4,1
+INC100210,Application Bug,Critical,Security Team,Data Center A,Resolved,Configuration Fix,3.0,6,5,5,4,0
+INC100211,Server Crash,Critical,Security Team,Data Center A,Resolved,Patch Applied,14.0,1,2,5,4,1
+INC100212,Application Bug,Critical,Database Admin,Data Center A,Resolved,Configuration Fix,40.0,2,2,5,4,1
+INC100213,Server Crash,High,Network Team,Data Center A,Resolved,Security Mitigation,15.0,5,6,6,8,1
+INC100214,Database Failure,Medium,Security Team,Head Office,Resolved,Patch Applied,19.0,6,3,9,12,1
+INC100215,Network Outage,Medium,Security Team,Data Center B,Resolved,Reboot,20.0,5,3,2,12,1
+INC100216,Server Crash,Critical,DevOps,Remote Site 2,Resolved,Security Mitigation,58.0,8,0,9,4,1
+INC100217,Database Failure,High,Security Team,Data Center B,Resolved,Hardware Replacement,9.0,2,3,5,8,1
+INC100218,Application Bug,High,Security Team,Remote Site 2,Resolved,Security Mitigation,46.0,4,5,1,8,1
+INC100219,Network Outage,High,DevOps,Remote Site 1,Resolved,Configuration Fix,8.0,20,5,1,8,0
+INC100220,Security Breach,Low,IT Support,Remote Site 2,Closed,Hardware Replacement,65.0,18,6,7,24,1
+INC100221,Application Bug,Low,DevOps,Remote Site 2,Resolved,Configuration Fix,25.0,11,5,8,24,1
+INC100222,Database Failure,Critical,Database Admin,Data Center B,Resolved,Hardware Replacement,8.0,21,4,11,4,1
+INC100223,Network Outage,High,IT Support,Remote Site 2,Resolved,Reboot,23.0,13,3,8,8,1
+INC100224,Server Crash,Critical,DevOps,Remote Site 2,Resolved,Configuration Fix,21.0,10,3,6,4,1
+INC100225,Security Breach,High,DevOps,Remote Site 1,Resolved,Security Mitigation,44.0,8,5,9,8,1
+INC100226,Network Outage,High,IT Support,Head Office,Closed,Hardware Replacement,72.0,6,4,2,8,1
+INC100227,Security Breach,High,Database Admin,Data Center B,Resolved,Security Mitigation,11.0,18,1,4,8,1
+INC100228,Server Crash,High,Security Team,Remote Site 1,Resolved,Configuration Fix,11.0,0,2,2,8,1
+INC100229,Database Failure,Critical,Security Team,Data Center B,Closed,Reboot,68.0,17,4,8,4,1
+INC100230,Application Bug,High,IT Support,Head Office,Resolved,Patch Applied,24.0,10,0,4,8,1
+INC100231,Security Breach,Critical,Network Team,Data Center B,Resolved,Reboot,20.0,22,4,2,4,1
+INC100232,Security Breach,Low,Database Admin,Remote Site 2,Closed,Reboot,68.0,1,5,10,24,1
+INC100233,Security Breach,Medium,Database Admin,Remote Site 1,Resolved,Patch Applied,21.0,15,3,2,12,1
+INC100234,Database Failure,Medium,DevOps,Data Center A,Resolved,Patch Applied,47.0,5,0,5,12,1
+INC100235,Application Bug,High,DevOps,Data Center B,Resolved,Configuration Fix,31.0,6,0,7,8,1
+INC100236,Application Bug,Medium,Security Team,Remote Site 2,Closed,Configuration Fix,60.0,9,3,5,12,1
+INC100237,Application Bug,Critical,Network Team,Data Center B,Resolved,Configuration Fix,18.0,11,0,9,4,1
+INC100238,Network Outage,Critical,Security Team,Remote Site 2,Resolved,Security Mitigation,14.0,21,3,11,4,1
+INC100239,Network Outage,High,IT Support,Data Center B,Resolved,Security Mitigation,58.0,2,2,4,8,1
+INC100240,Server Crash,Critical,IT Support,Data Center B,Resolved,Configuration Fix,58.0,18,5,10,4,1
+INC100241,Network Outage,Critical,IT Support,Remote Site 1,Resolved,Patch Applied,48.0,8,3,6,4,1
+INC100242,Application Bug,Low,Security Team,Data Center B,Resolved,Reboot,41.0,14,2,1,24,1
+INC100243,Security Breach,Medium,Network Team,Data Center A,Closed,Patch Applied,61.0,22,6,4,12,1
+INC100244,Application Bug,Critical,Database Admin,Data Center A,Resolved,Reboot,11.0,4,1,11,4,1
+INC100245,Security Breach,Medium,Network Team,Remote Site 2,Closed,Hardware Replacement,68.0,22,5,11,12,1
+INC100246,Network Outage,High,Network Team,Head Office,Resolved,Patch Applied,7.0,14,6,2,8,0
+INC100247,Application Bug,Critical,IT Support,Data Center A,Closed,Security Mitigation,64.0,14,5,10,4,1
+INC100248,Database Failure,Low,Database Admin,Remote Site 2,Resolved,Configuration Fix,19.0,13,5,3,24,0
+INC100249,Application Bug,Low,Database Admin,Head Office,Resolved,Patch Applied,54.0,2,5,3,24,1
+INC100250,Network Outage,High,IT Support,Remote Site 2,Closed,Security Mitigation,65.0,17,3,7,8,1
+INC100251,Database Failure,Low,DevOps,Remote Site 1,Resolved,Configuration Fix,50.0,20,0,1,24,1
+INC100252,Security Breach,Low,Security Team,Data Center A,Resolved,Reboot,31.0,16,5,4,24,1
+INC100253,Database Failure,High,Network Team,Data Center A,Closed,Configuration Fix,70.0,6,1,4,8,1
+INC100254,Server Crash,Critical,DevOps,Data Center B,Resolved,Reboot,18.0,23,3,10,4,1
+INC100255,Application Bug,Low,Security Team,Data Center B,Resolved,Reboot,26.0,22,0,1,24,1
+INC100256,Security Breach,High,Database Admin,Remote Site 1,Closed,Hardware Replacement,70.0,7,5,10,8,1
+INC100257,Security Breach,Low,Network Team,Head Office,Resolved,Configuration Fix,7.0,20,2,5,24,0
+INC100258,Security Breach,Low,Security Team,Remote Site 1,Resolved,Hardware Replacement,52.0,14,2,10,24,1
+INC100259,Application Bug,High,Network Team,Remote Site 1,Closed,Configuration Fix,64.0,5,5,8,8,1
+INC100260,Database Failure,High,IT Support,Remote Site 1,Resolved,Security Mitigation,56.0,22,5,1,8,1
+INC100261,Server Crash,High,Security Team,Data Center A,Resolved,Configuration Fix,42.0,7,6,1,8,1
+INC100262,Security Breach,Critical,Database Admin,Remote Site 1,Resolved,Configuration Fix,57.0,21,0,2,4,1
+INC100263,Application Bug,Low,Security Team,Remote Site 2,Resolved,Reboot,36.0,11,1,5,24,1
+INC100264,Network Outage,Critical,Security Team,Remote Site 2,Resolved,Reboot,21.0,10,0,9,4,1
+INC100265,Server Crash,Critical,IT Support,Data Center B,Resolved,Configuration Fix,31.0,22,1,1,4,1
+INC100266,Security Breach,Critical,Database Admin,Data Center A,Resolved,Hardware Replacement,20.0,12,3,7,4,1
+INC100267,Security Breach,High,DevOps,Data Center A,Resolved,Security Mitigation,18.0,21,6,7,8,1
+INC100268,Security Breach,Critical,Security Team,Head Office,Resolved,Reboot,15.0,4,1,3,4,1
+INC100269,Server Crash,Critical,Database Admin,Remote Site 1,Closed,Reboot,72.0,19,3,11,4,1
+INC100270,Security Breach,High,DevOps,Data Center B,Resolved,Hardware Replacement,37.0,20,5,7,8,1
+INC100271,Server Crash,Low,Network Team,Data Center A,Resolved,Hardware Replacement,23.0,7,0,6,24,0
+INC100272,Network Outage,High,Security Team,Data Center A,Closed,Configuration Fix,70.0,17,5,7,8,1
+INC100273,Security Breach,Medium,Network Team,Head Office,Resolved,Reboot,29.0,15,5,6,12,1
+INC100274,Server Crash,Medium,Network Team,Remote Site 1,Resolved,Security Mitigation,47.0,23,1,1,12,1
+INC100275,Database Failure,High,DevOps,Remote Site 2,Resolved,Reboot,12.0,7,2,2,8,1
+INC100276,Security Breach,Critical,DevOps,Remote Site 2,Resolved,Security Mitigation,53.0,5,0,5,4,1
+INC100277,Network Outage,Medium,Security Team,Data Center A,Closed,Security Mitigation,60.0,14,6,6,12,1
+INC100278,Security Breach,Medium,Database Admin,Remote Site 2,Resolved,Hardware Replacement,17.0,2,6,3,12,1
+INC100279,Database Failure,Low,IT Support,Remote Site 2,Resolved,Patch Applied,39.0,5,3,2,24,1
+INC100280,Server Crash,High,Network Team,Head Office,Closed,Configuration Fix,67.0,9,1,11,8,1
+INC100281,Network Outage,High,Network Team,Remote Site 2,Resolved,Configuration Fix,17.0,16,2,4,8,1
+INC100282,Database Failure,Low,Database Admin,Data Center B,Resolved,Patch Applied,20.0,0,6,7,24,0
+INC100283,Database Failure,High,Database Admin,Data Center A,Resolved,Reboot,4.0,16,1,10,8,0
+INC100284,Network Outage,High,Network Team,Remote Site 2,Resolved,Hardware Replacement,4.0,4,2,5,8,0
+INC100285,Database Failure,High,Security Team,Remote Site 1,Resolved,Configuration Fix,52.0,14,6,3,8,1
+INC100286,Application Bug,Low,IT Support,Data Center B,Resolved,Hardware Replacement,54.0,1,3,5,24,1
+INC100287,Application Bug,Medium,Security Team,Remote Site 2,Resolved,Configuration Fix,41.0,0,0,2,12,1
+INC100288,Security Breach,Critical,Network Team,Head Office,Closed,Reboot,72.0,18,0,6,4,1
+INC100289,Security Breach,Medium,DevOps,Data Center A,Resolved,Patch Applied,58.0,7,0,4,12,1
+INC100290,Server Crash,Low,IT Support,Head Office,Resolved,Security Mitigation,50.0,16,0,11,24,1
+INC100291,Application Bug,Medium,Network Team,Head Office,Resolved,Patch Applied,41.0,17,3,11,12,1
+INC100292,Server Crash,Critical,Database Admin,Remote Site 1,Resolved,Hardware Replacement,40.0,5,2,6,4,1
+INC100293,Network Outage,Low,DevOps,Remote Site 2,Resolved,Patch Applied,31.0,1,2,6,24,1
+INC100294,Database Failure,High,IT Support,Data Center A,Closed,Security Mitigation,64.0,0,5,4,8,1
+INC100295,Application Bug,High,Database Admin,Data Center A,Resolved,Hardware Replacement,14.0,4,2,10,8,1
+INC100296,Server Crash,High,Security Team,Remote Site 1,Resolved,Hardware Replacement,6.0,21,5,5,8,0
+INC100297,Network Outage,Medium,Security Team,Remote Site 2,Resolved,Hardware Replacement,10.0,12,0,4,12,0
+INC100298,Database Failure,Critical,Database Admin,Head Office,Resolved,Patch Applied,16.0,16,1,10,4,1
+INC100299,Network Outage,Critical,Security Team,Head Office,Resolved,Patch Applied,47.0,9,1,7,4,1
+INC100300,Server Crash,Critical,Database Admin,Data Center A,Resolved,Patch Applied,5.0,11,1,1,4,1
+INC100301,Security Breach,Critical,Database Admin,Remote Site 1,Closed,Patch Applied,66.0,20,1,2,4,1
+INC100302,Security Breach,High,Network Team,Remote Site 1,Resolved,Security Mitigation,39.0,10,0,7,8,1
+INC100303,Security Breach,Critical,Database Admin,Head Office,Resolved,Configuration Fix,3.0,2,1,6,4,0
+INC100304,Security Breach,Low,DevOps,Remote Site 2,Resolved,Security Mitigation,4.0,0,0,4,24,0
+INC100305,Application Bug,High,Database Admin,Remote Site 2,Resolved,Security Mitigation,7.0,16,0,3,8,0
+INC100306,Application Bug,Medium,Database Admin,Remote Site 2,Resolved,Patch Applied,49.0,9,5,9,12,1
+INC100307,Server Crash,Low,Database Admin,Data Center A,Resolved,Hardware Replacement,3.0,2,2,3,24,0
+INC100308,Security Breach,Critical,Network Team,Remote Site 1,Resolved,Hardware Replacement,27.0,16,4,8,4,1
+INC100309,Database Failure,Critical,IT Support,Data Center B,Resolved,Security Mitigation,27.0,1,2,6,4,1
+INC100310,Security Breach,Critical,Database Admin,Remote Site 1,Resolved,Hardware Replacement,23.0,2,2,4,4,1
+INC100311,Database Failure,High,Database Admin,Head Office,Resolved,Security Mitigation,34.0,16,6,8,8,1
+INC100312,Application Bug,Medium,Network Team,Head Office,Resolved,Patch Applied,39.0,11,1,7,12,1
+INC100313,Security Breach,High,Network Team,Remote Site 1,Closed,Configuration Fix,62.0,5,3,4,8,1
+INC100314,Database Failure,High,Security Team,Data Center A,Closed,Hardware Replacement,70.0,17,6,7,8,1
+INC100315,Application Bug,High,Network Team,Head Office,Resolved,Reboot,37.0,8,0,1,8,1
+INC100316,Security Breach,Critical,Security Team,Remote Site 1,Resolved,Security Mitigation,26.0,0,3,3,4,1
+INC100317,Security Breach,High,Network Team,Data Center A,Resolved,Patch Applied,31.0,3,0,7,8,1
+INC100318,Network Outage,Medium,Network Team,Data Center A,Resolved,Configuration Fix,53.0,4,6,2,12,1
+INC100319,Application Bug,Low,Network Team,Data Center A,Closed,Patch Applied,71.0,5,0,11,24,1
+INC100320,Application Bug,Critical,DevOps,Data Center B,Resolved,Configuration Fix,37.0,0,6,9,4,1
+INC100321,Security Breach,Low,IT Support,Remote Site 2,Closed,Reboot,69.0,6,2,3,24,1
+INC100322,Server Crash,Critical,Network Team,Data Center A,Resolved,Hardware Replacement,51.0,10,5,10,4,1
+INC100323,Server Crash,High,IT Support,Data Center A,Resolved,Configuration Fix,14.0,20,3,4,8,1
+INC100324,Security Breach,Critical,Database Admin,Remote Site 2,Resolved,Security Mitigation,18.0,14,0,6,4,1
+INC100325,Application Bug,High,Network Team,Data Center A,Resolved,Hardware Replacement,21.0,20,0,4,8,1
+INC100326,Security Breach,Medium,IT Support,Head Office,Resolved,Security Mitigation,38.0,21,3,9,12,1
+INC100327,Server Crash,Medium,Database Admin,Remote Site 1,Resolved,Security Mitigation,55.0,6,2,10,12,1
+INC100328,Security Breach,Low,DevOps,Data Center A,Resolved,Hardware Replacement,18.0,1,0,3,24,0
+INC100329,Security Breach,Medium,IT Support,Head Office,Resolved,Hardware Replacement,31.0,22,4,5,12,1
+INC100330,Security Breach,High,Security Team,Remote Site 2,Resolved,Configuration Fix,2.0,17,1,9,8,0
+INC100331,Security Breach,Medium,IT Support,Data Center A,Resolved,Patch Applied,40.0,20,4,6,12,1
+INC100332,Application Bug,High,IT Support,Head Office,Resolved,Patch Applied,29.0,10,6,5,8,1
+INC100333,Server Crash,Critical,Network Team,Remote Site 1,Resolved,Hardware Replacement,48.0,5,3,9,4,1
+INC100334,Database Failure,Critical,Database Admin,Data Center B,Resolved,Security Mitigation,32.0,1,1,9,4,1
+INC100335,Network Outage,Critical,Database Admin,Head Office,Resolved,Reboot,15.0,15,5,1,4,1
+INC100336,Database Failure,Medium,Database Admin,Remote Site 2,Resolved,Configuration Fix,22.0,3,2,2,12,1
+INC100337,Database Failure,Critical,IT Support,Data Center B,Closed,Reboot,63.0,16,6,9,4,1
+INC100338,Database Failure,Critical,IT Support,Remote Site 1,Closed,Hardware Replacement,66.0,0,3,2,4,1
+INC100339,Application Bug,Low,Database Admin,Remote Site 1,Resolved,Reboot,40.0,15,5,8,24,1
+INC100340,Application Bug,High,IT Support,Data Center B,Resolved,Reboot,10.0,9,1,7,8,1
+INC100341,Application Bug,High,IT Support,Remote Site 2,Resolved,Hardware Replacement,9.0,13,6,1,8,1
+INC100342,Network Outage,High,DevOps,Data Center B,Resolved,Hardware Replacement,18.0,11,3,9,8,1
+INC100343,Security Breach,Critical,DevOps,Remote Site 1,Resolved,Security Mitigation,11.0,5,2,5,4,1
+INC100344,Server Crash,High,IT Support,Data Center B,Resolved,Security Mitigation,51.0,9,1,7,8,1
+INC100345,Server Crash,Medium,IT Support,Data Center A,Closed,Security Mitigation,60.0,20,3,4,12,1
+INC100346,Application Bug,Critical,Network Team,Data Center B,Resolved,Patch Applied,45.0,5,3,6,4,1
+INC100347,Security Breach,Medium,IT Support,Data Center A,Resolved,Security Mitigation,54.0,7,3,10,12,1
+INC100348,Network Outage,Medium,Network Team,Data Center A,Resolved,Hardware Replacement,5.0,10,6,2,12,0
+INC100349,Database Failure,Low,Network Team,Data Center A,Resolved,Patch Applied,57.0,7,4,5,24,1
+INC100350,Database Failure,Medium,IT Support,Data Center B,Resolved,Patch Applied,38.0,23,3,6,12,1
+INC100351,Database Failure,High,Database Admin,Remote Site 2,Resolved,Patch Applied,42.0,16,4,9,8,1
+INC100352,Security Breach,Medium,Database Admin,Data Center B,Resolved,Configuration Fix,39.0,3,1,5,12,1
+INC100353,Network Outage,Medium,DevOps,Remote Site 2,Resolved,Configuration Fix,7.0,4,1,6,12,0
+INC100354,Application Bug,High,DevOps,Remote Site 1,Resolved,Hardware Replacement,39.0,22,1,2,8,1
+INC100355,Server Crash,Critical,Network Team,Data Center B,Resolved,Hardware Replacement,19.0,15,4,4,4,1
+INC100356,Network Outage,Critical,DevOps,Remote Site 2,Resolved,Hardware Replacement,18.0,21,5,6,4,1
+INC100357,Server Crash,High,Network Team,Head Office,Resolved,Hardware Replacement,11.0,17,3,8,8,1
+INC100358,Security Breach,Low,Database Admin,Data Center B,Resolved,Hardware Replacement,35.0,14,3,1,24,1
+INC100359,Database Failure,Low,IT Support,Data Center B,Closed,Patch Applied,72.0,15,1,10,24,1
+INC100360,Application Bug,Medium,Security Team,Head Office,Resolved,Patch Applied,2.0,15,4,11,12,0
+INC100361,Server Crash,Low,DevOps,Data Center B,Resolved,Hardware Replacement,27.0,10,6,8,24,1
+INC100362,Server Crash,High,Security Team,Remote Site 1,Closed,Configuration Fix,69.0,3,5,6,8,1
+INC100363,Security Breach,High,Security Team,Remote Site 2,Closed,Hardware Replacement,64.0,7,0,10,8,1
+INC100364,Network Outage,Critical,Security Team,Data Center B,Resolved,Hardware Replacement,41.0,12,0,5,4,1
+INC100365,Network Outage,Medium,Network Team,Data Center A,Closed,Security Mitigation,71.0,0,5,3,12,1
+INC100366,Database Failure,Critical,Security Team,Data Center B,Resolved,Patch Applied,43.0,23,3,3,4,1
+INC100367,Application Bug,Medium,DevOps,Remote Site 2,Resolved,Configuration Fix,44.0,10,6,8,12,1
+INC100368,Application Bug,Critical,DevOps,Data Center B,Resolved,Patch Applied,46.0,2,5,9,4,1
+INC100369,Server Crash,Critical,Network Team,Remote Site 2,Resolved,Security Mitigation,8.0,1,2,8,4,1
+INC100370,Network Outage,Low,IT Support,Data Center A,Resolved,Patch Applied,18.0,18,0,5,24,0
+INC100371,Network Outage,Medium,IT Support,Data Center B,Resolved,Configuration Fix,59.0,14,4,6,12,1
+INC100372,Network Outage,Critical,DevOps,Data Center A,Closed,Security Mitigation,69.0,6,2,1,4,1
+INC100373,Application Bug,Low,IT Support,Remote Site 2,Resolved,Security Mitigation,36.0,12,1,9,24,1
+INC100374,Security Breach,Low,Database Admin,Remote Site 1,Resolved,Reboot,23.0,4,2,10,24,0
+INC100375,Network Outage,Medium,Network Team,Data Center B,Closed,Configuration Fix,68.0,13,1,7,12,1
+INC100376,Security Breach,High,DevOps,Data Center A,Resolved,Hardware Replacement,52.0,8,1,5,8,1
+INC100377,Database Failure,Medium,Network Team,Head Office,Resolved,Reboot,11.0,11,2,8,12,0
+INC100378,Network Outage,Critical,DevOps,Remote Site 1,Closed,Reboot,61.0,15,6,7,4,1
+INC100379,Network Outage,Medium,IT Support,Remote Site 1,Resolved,Configuration Fix,56.0,12,1,10,12,1
+INC100380,Database Failure,Low,Database Admin,Data Center A,Resolved,Security Mitigation,28.0,10,1,3,24,1
+INC100381,Application Bug,High,IT Support,Data Center A,Resolved,Security Mitigation,36.0,14,2,8,8,1
+INC100382,Database Failure,Low,Network Team,Head Office,Resolved,Security Mitigation,27.0,8,5,1,24,1
+INC100383,Server Crash,Critical,IT Support,Head Office,Resolved,Security Mitigation,31.0,10,6,2,4,1
+INC100384,Application Bug,High,DevOps,Data Center B,Resolved,Security Mitigation,11.0,19,3,9,8,1
+INC100385,Security Breach,Low,IT Support,Remote Site 1,Resolved,Configuration Fix,10.0,5,2,3,24,0
+INC100386,Database Failure,Critical,Security Team,Data Center A,Resolved,Hardware Replacement,35.0,10,6,8,4,1
+INC100387,Application Bug,Medium,Security Team,Remote Site 2,Resolved,Hardware Replacement,49.0,5,6,11,12,1
+INC100388,Server Crash,Critical,IT Support,Remote Site 2,Resolved,Reboot,32.0,19,2,4,4,1
+INC100389,Network Outage,High,Network Team,Remote Site 1,Resolved,Hardware Replacement,20.0,22,4,8,8,1
+INC100390,Security Breach,High,IT Support,Data Center A,Resolved,Hardware Replacement,40.0,18,1,1,8,1
+INC100391,Security Breach,High,IT Support,Data Center B,Resolved,Hardware Replacement,24.0,19,1,1,8,1
+INC100392,Application Bug,Critical,IT Support,Data Center A,Resolved,Security Mitigation,46.0,14,2,1,4,1
+INC100393,Network Outage,High,DevOps,Data Center A,Resolved,Hardware Replacement,53.0,14,1,4,8,1
+INC100394,Network Outage,Medium,Database Admin,Remote Site 2,Resolved,Patch Applied,49.0,21,1,2,12,1
+INC100395,Server Crash,High,Security Team,Head Office,Resolved,Reboot,19.0,7,0,6,8,1
+INC100396,Server Crash,Critical,Security Team,Remote Site 1,Closed,Reboot,62.0,7,4,4,4,1
+INC100397,Security Breach,High,Network Team,Remote Site 1,Resolved,Hardware Replacement,26.0,16,6,7,8,1
+INC100398,Network Outage,Medium,Security Team,Data Center A,Resolved,Configuration Fix,51.0,20,1,11,12,1
+INC100399,Database Failure,Critical,Security Team,Remote Site 1,Resolved,Security Mitigation,56.0,6,2,4,4,1
+INC100400,Server Crash,High,Security Team,Remote Site 2,Resolved,Hardware Replacement,26.0,8,1,11,8,1
+INC100401,Security Breach,Medium,DevOps,Head Office,Closed,Security Mitigation,63.0,11,1,4,12,1
+INC100402,Server Crash,High,DevOps,Head Office,Resolved,Configuration Fix,51.0,16,5,10,8,1
+INC100403,Network Outage,Medium,Database Admin,Remote Site 2,Closed,Reboot,71.0,9,5,3,12,1
+INC100404,Application Bug,Medium,DevOps,Head Office,Resolved,Hardware Replacement,9.0,17,3,10,12,0
+INC100405,Application Bug,Medium,Security Team,Data Center B,Resolved,Hardware Replacement,20.0,5,2,3,12,1
+INC100406,Application Bug,Low,DevOps,Remote Site 2,Resolved,Security Mitigation,52.0,13,2,6,24,1
+INC100407,Database Failure,Critical,Database Admin,Data Center A,Resolved,Security Mitigation,47.0,21,3,9,4,1
+INC100408,Database Failure,Low,IT Support,Data Center B,Resolved,Patch Applied,46.0,11,0,8,24,1
+INC100409,Database Failure,Low,Database Admin,Remote Site 1,Resolved,Hardware Replacement,43.0,0,1,11,24,1
+INC100410,Network Outage,Low,IT Support,Head Office,Closed,Security Mitigation,66.0,18,5,3,24,1
+INC100411,Database Failure,Medium,DevOps,Head Office,Closed,Security Mitigation,60.0,12,0,5,12,1
+INC100412,Database Failure,Medium,Security Team,Data Center A,Resolved,Configuration Fix,14.0,18,3,6,12,1
+INC100413,Application Bug,Low,IT Support,Data Center B,Resolved,Configuration Fix,40.0,21,6,4,24,1
+INC100414,Application Bug,Medium,Database Admin,Remote Site 1,Closed,Reboot,61.0,21,6,4,12,1
+INC100415,Application Bug,Critical,Security Team,Data Center A,Resolved,Reboot,6.0,11,4,4,4,1
+INC100416,Network Outage,High,IT Support,Data Center B,Resolved,Security Mitigation,32.0,9,2,11,8,1
+INC100417,Server Crash,Medium,Security Team,Remote Site 2,Closed,Patch Applied,60.0,12,5,5,12,1
+INC100418,Application Bug,Medium,Network Team,Remote Site 1,Resolved,Security Mitigation,4.0,0,2,5,12,0
+INC100419,Server Crash,Critical,Database Admin,Remote Site 1,Resolved,Patch Applied,1.0,17,6,5,4,0
+INC100420,Server Crash,High,IT Support,Remote Site 2,Closed,Patch Applied,69.0,17,6,2,8,1
+INC100421,Security Breach,High,Network Team,Remote Site 1,Resolved,Hardware Replacement,34.0,21,3,2,8,1
+INC100422,Database Failure,High,Database Admin,Remote Site 1,Resolved,Security Mitigation,51.0,15,5,7,8,1
+INC100423,Network Outage,High,Security Team,Remote Site 1,Resolved,Configuration Fix,23.0,17,0,7,8,1
+INC100424,Database Failure,Low,Network Team,Head Office,Resolved,Configuration Fix,31.0,5,5,2,24,1
+INC100425,Network Outage,Medium,Security Team,Data Center B,Resolved,Hardware Replacement,50.0,8,6,6,12,1
+INC100426,Database Failure,Medium,Database Admin,Remote Site 1,Resolved,Hardware Replacement,24.0,9,4,5,12,1
+INC100427,Database Failure,Medium,Database Admin,Data Center B,Resolved,Patch Applied,37.0,3,6,6,12,1
+INC100428,Server Crash,High,DevOps,Remote Site 2,Resolved,Reboot,46.0,7,4,1,8,1
+INC100429,Application Bug,Medium,Network Team,Remote Site 1,Closed,Security Mitigation,72.0,23,6,11,12,1
+INC100430,Application Bug,Critical,DevOps,Remote Site 1,Resolved,Hardware Replacement,57.0,9,4,8,4,1
+INC100431,Server Crash,Low,Database Admin,Data Center A,Resolved,Configuration Fix,29.0,15,5,9,24,1
+INC100432,Network Outage,High,Network Team,Remote Site 2,Resolved,Hardware Replacement,22.0,12,0,4,8,1
+INC100433,Database Failure,Critical,Database Admin,Remote Site 2,Resolved,Configuration Fix,15.0,15,3,2,4,1
+INC100434,Database Failure,High,Database Admin,Data Center A,Resolved,Security Mitigation,57.0,9,0,9,8,1
+INC100435,Server Crash,Critical,IT Support,Data Center B,Resolved,Hardware Replacement,5.0,14,3,4,4,1
+INC100436,Security Breach,High,IT Support,Remote Site 1,Resolved,Patch Applied,16.0,8,1,10,8,1
+INC100437,Server Crash,High,Database Admin,Remote Site 1,Resolved,Patch Applied,18.0,15,0,2,8,1
+INC100438,Server Crash,Low,Database Admin,Head Office,Resolved,Security Mitigation,36.0,16,6,6,24,1
+INC100439,Database Failure,Medium,Security Team,Head Office,Resolved,Security Mitigation,35.0,18,0,4,12,1
+INC100440,Network Outage,Medium,DevOps,Data Center A,Resolved,Patch Applied,17.0,15,3,4,12,1
+INC100441,Server Crash,Medium,Security Team,Data Center B,Resolved,Hardware Replacement,51.0,21,0,9,12,1
+INC100442,Server Crash,High,DevOps,Remote Site 1,Resolved,Reboot,10.0,6,0,6,8,1
+INC100443,Application Bug,High,Security Team,Remote Site 1,Closed,Configuration Fix,63.0,8,2,11,8,1
+INC100444,Database Failure,Low,IT Support,Remote Site 1,Resolved,Reboot,46.0,16,6,8,24,1
+INC100445,Database Failure,Critical,Network Team,Remote Site 1,Resolved,Hardware Replacement,28.0,13,1,10,4,1
+INC100446,Security Breach,High,Security Team,Head Office,Resolved,Security Mitigation,17.0,19,4,7,8,1
+INC100447,Application Bug,High,IT Support,Data Center A,Resolved,Reboot,59.0,23,5,2,8,1
+INC100448,Network Outage,Medium,DevOps,Remote Site 1,Resolved,Patch Applied,55.0,5,0,1,12,1
+INC100449,Server Crash,High,Network Team,Head Office,Resolved,Configuration Fix,47.0,20,3,2,8,1
+INC100450,Network Outage,High,Network Team,Data Center A,Resolved,Patch Applied,40.0,6,2,5,8,1
+INC100451,Application Bug,Low,IT Support,Data Center A,Closed,Reboot,62.0,20,2,3,24,1
+INC100452,Server Crash,Medium,Database Admin,Remote Site 1,Resolved,Configuration Fix,2.0,4,3,1,12,0
+INC100453,Network Outage,Critical,Network Team,Remote Site 1,Resolved,Hardware Replacement,30.0,4,3,1,4,1
+INC100454,Network Outage,Low,IT Support,Head Office,Resolved,Patch Applied,39.0,11,6,5,24,1
+INC100455,Application Bug,Medium,Network Team,Data Center A,Resolved,Security Mitigation,2.0,1,6,6,12,0
+INC100456,Server Crash,Critical,Security Team,Data Center B,Resolved,Hardware Replacement,20.0,9,4,8,4,1
+INC100457,Database Failure,Critical,Network Team,Data Center A,Resolved,Patch Applied,13.0,0,5,11,4,1
+INC100458,Network Outage,Critical,Security Team,Remote Site 1,Resolved,Patch Applied,18.0,8,2,4,4,1
+INC100459,Security Breach,Low,Network Team,Remote Site 2,Resolved,Reboot,37.0,3,2,7,24,1
+INC100460,Security Breach,Medium,Database Admin,Remote Site 2,Resolved,Hardware Replacement,25.0,22,5,6,12,1
+INC100461,Security Breach,Low,Network Team,Remote Site 1,Resolved,Patch Applied,15.0,17,5,5,24,0
+INC100462,Application Bug,Low,Database Admin,Data Center A,Resolved,Patch Applied,41.0,6,4,5,24,1
+INC100463,Application Bug,Critical,Security Team,Remote Site 2,Resolved,Hardware Replacement,23.0,2,2,8,4,1
+INC100464,Network Outage,Low,Database Admin,Data Center A,Resolved,Patch Applied,34.0,16,4,1,24,1
+INC100465,Network Outage,Low,DevOps,Remote Site 2,Closed,Hardware Replacement,65.0,18,6,4,24,1
+INC100466,Application Bug,Critical,IT Support,Remote Site 2,Resolved,Configuration Fix,20.0,12,1,7,4,1
+INC100467,Network Outage,High,IT Support,Remote Site 2,Resolved,Patch Applied,27.0,8,6,11,8,1
+INC100468,Database Failure,High,DevOps,Remote Site 2,Resolved,Configuration Fix,9.0,12,6,8,8,1
+INC100469,Application Bug,Medium,IT Support,Data Center B,Resolved,Reboot,56.0,10,1,1,12,1
+INC100470,Application Bug,Low,Security Team,Data Center B,Resolved,Patch Applied,2.0,18,5,2,24,0
+INC100471,Network Outage,Medium,DevOps,Head Office,Closed,Configuration Fix,67.0,12,3,6,12,1
+INC100472,Server Crash,High,Network Team,Head Office,Resolved,Reboot,16.0,4,5,9,8,1
+INC100473,Security Breach,Critical,Security Team,Remote Site 2,Resolved,Security Mitigation,34.0,19,0,1,4,1
+INC100474,Network Outage,Critical,DevOps,Remote Site 2,Resolved,Hardware Replacement,8.0,22,3,5,4,1
+INC100475,Database Failure,Medium,Security Team,Data Center B,Resolved,Security Mitigation,14.0,1,3,3,12,1
+INC100476,Network Outage,Medium,Database Admin,Data Center A,Resolved,Patch Applied,2.0,0,1,1,12,0
+INC100477,Network Outage,Critical,Security Team,Remote Site 1,Resolved,Patch Applied,20.0,2,6,11,4,1
+INC100478,Network Outage,Critical,Network Team,Head Office,Resolved,Configuration Fix,54.0,17,0,3,4,1
+INC100479,Security Breach,Low,Database Admin,Head Office,Closed,Reboot,65.0,18,5,2,24,1
+INC100480,Server Crash,Medium,Database Admin,Data Center A,Resolved,Reboot,52.0,15,3,11,12,1
+INC100481,Application Bug,High,Security Team,Head Office,Closed,Hardware Replacement,71.0,11,1,1,8,1
+INC100482,Network Outage,High,Network Team,Head Office,Resolved,Security Mitigation,39.0,10,3,7,8,1
+INC100483,Server Crash,Critical,Security Team,Remote Site 2,Closed,Patch Applied,64.0,17,2,11,4,1
+INC100484,Database Failure,Medium,Network Team,Data Center A,Resolved,Reboot,53.0,6,3,11,12,1
+INC100485,Server Crash,High,IT Support,Head Office,Resolved,Configuration Fix,49.0,11,0,1,8,1
+INC100486,Network Outage,Medium,Database Admin,Data Center B,Closed,Reboot,63.0,7,3,5,12,1
+INC100487,Server Crash,High,IT Support,Data Center A,Resolved,Security Mitigation,30.0,11,6,11,8,1
+INC100488,Application Bug,High,DevOps,Data Center A,Resolved,Security Mitigation,13.0,5,2,7,8,1
+INC100489,Server Crash,Critical,IT Support,Remote Site 2,Resolved,Hardware Replacement,8.0,19,4,7,4,1
+INC100490,Server Crash,Medium,Security Team,Head Office,Resolved,Hardware Replacement,41.0,10,3,10,12,1
+INC100491,Security Breach,High,DevOps,Head Office,Resolved,Patch Applied,10.0,17,2,3,8,1
+INC100492,Server Crash,Low,Network Team,Data Center A,Resolved,Hardware Replacement,58.0,2,0,2,24,1
+INC100493,Security Breach,Critical,IT Support,Remote Site 2,Resolved,Hardware Replacement,27.0,7,3,5,4,1
+INC100494,Security Breach,Critical,Security Team,Data Center A,Resolved,Configuration Fix,21.0,20,2,1,4,1
+INC100495,Database Failure,Low,Network Team,Head Office,Resolved,Patch Applied,12.0,15,1,2,24,0
+INC100496,Security Breach,Critical,Database Admin,Data Center A,Resolved,Configuration Fix,39.0,3,0,8,4,1
+INC100497,Server Crash,Low,DevOps,Remote Site 1,Closed,Patch Applied,71.0,18,0,7,24,1
+INC100498,Network Outage,Critical,IT Support,Data Center B,Resolved,Reboot,2.0,10,6,2,4,0
+INC100499,Server Crash,Medium,Network Team,Remote Site 1,Resolved,Security Mitigation,11.0,1,1,5,12,0
+INC100500,Database Failure,High,IT Support,Data Center A,Resolved,Hardware Replacement,26.0,0,1,1,8,1
+INC100501,Server Crash,Low,Security Team,Data Center A,Closed,Reboot,60.0,13,0,1,24,1
+INC100502,Server Crash,Critical,DevOps,Remote Site 1,Resolved,Hardware Replacement,49.0,1,3,1,4,1
+INC100503,Server Crash,High,Network Team,Data Center B,Resolved,Hardware Replacement,36.0,20,2,4,8,1
+INC100504,Server Crash,Low,Database Admin,Remote Site 2,Resolved,Configuration Fix,32.0,14,0,7,24,1
+INC100505,Application Bug,Critical,Database Admin,Remote Site 1,Resolved,Configuration Fix,12.0,19,6,1,4,1
+INC100506,Application Bug,Medium,DevOps,Data Center B,Closed,Patch Applied,68.0,8,2,8,12,1
+INC100507,Database Failure,Low,DevOps,Head Office,Closed,Hardware Replacement,70.0,17,2,6,24,1
+INC100508,Security Breach,High,DevOps,Head Office,Resolved,Configuration Fix,4.0,9,5,3,8,0
+INC100509,Database Failure,Medium,IT Support,Head Office,Closed,Security Mitigation,61.0,23,5,1,12,1
+INC100510,Security Breach,Medium,Network Team,Data Center A,Resolved,Configuration Fix,31.0,14,0,3,12,1
+INC100511,Database Failure,Low,Network Team,Remote Site 2,Resolved,Configuration Fix,50.0,22,1,10,24,1
+INC100512,Server Crash,Medium,Network Team,Remote Site 2,Resolved,Security Mitigation,46.0,13,3,4,12,1
+INC100513,Network Outage,High,Database Admin,Remote Site 2,Resolved,Hardware Replacement,25.0,12,6,2,8,1
+INC100514,Database Failure,High,Network Team,Remote Site 1,Resolved,Reboot,12.0,22,5,1,8,1
+INC100515,Server Crash,Medium,IT Support,Remote Site 2,Resolved,Configuration Fix,1.0,3,2,6,12,0
+INC100516,Database Failure,Medium,Network Team,Head Office,Resolved,Configuration Fix,23.0,17,6,9,12,1
+INC100517,Network Outage,Low,Network Team,Remote Site 2,Resolved,Reboot,19.0,12,2,8,24,0
+INC100518,Database Failure,High,IT Support,Head Office,Resolved,Security Mitigation,51.0,11,2,8,8,1
+INC100519,Network Outage,High,Security Team,Head Office,Resolved,Hardware Replacement,21.0,13,4,2,8,1
+INC100520,Application Bug,High,Network Team,Remote Site 2,Resolved,Patch Applied,46.0,17,5,8,8,1
+INC100521,Database Failure,Medium,DevOps,Head Office,Resolved,Patch Applied,38.0,12,5,9,12,1
+INC100522,Server Crash,Low,Database Admin,Remote Site 1,Resolved,Patch Applied,5.0,9,3,10,24,0
+INC100523,Database Failure,High,Database Admin,Data Center B,Resolved,Hardware Replacement,14.0,7,1,8,8,1
+INC100524,Server Crash,High,IT Support,Data Center B,Resolved,Patch Applied,41.0,9,6,4,8,1
+INC100525,Network Outage,High,DevOps,Data Center A,Resolved,Patch Applied,27.0,12,6,3,8,1
+INC100526,Network Outage,High,Security Team,Data Center A,Resolved,Reboot,1.0,21,0,9,8,0
+INC100527,Application Bug,Critical,DevOps,Data Center B,Resolved,Hardware Replacement,53.0,22,0,10,4,1
+INC100528,Application Bug,High,Database Admin,Remote Site 1,Closed,Security Mitigation,62.0,14,6,2,8,1
+INC100529,Server Crash,Medium,DevOps,Data Center A,Resolved,Configuration Fix,5.0,19,6,9,12,0
+INC100530,Network Outage,High,Security Team,Data Center A,Resolved,Patch Applied,44.0,7,4,1,8,1
+INC100531,Application Bug,Medium,IT Support,Remote Site 2,Resolved,Configuration Fix,12.0,11,6,11,12,0
+INC100532,Database Failure,Critical,IT Support,Remote Site 1,Resolved,Security Mitigation,22.0,16,6,11,4,1
+INC100533,Application Bug,Medium,IT Support,Data Center A,Resolved,Patch Applied,27.0,0,1,4,12,1
+INC100534,Application Bug,High,Security Team,Head Office,Resolved,Reboot,13.0,1,4,3,8,1
+INC100535,Application Bug,Critical,Network Team,Data Center A,Resolved,Hardware Replacement,1.0,3,4,5,4,0
+INC100536,Network Outage,High,Database Admin,Remote Site 1,Resolved,Reboot,13.0,3,5,3,8,1
+INC100537,Server Crash,Medium,Security Team,Data Center A,Resolved,Configuration Fix,15.0,15,0,6,12,1
+INC100538,Application Bug,Critical,DevOps,Head Office,Closed,Hardware Replacement,70.0,2,3,2,4,1
+INC100539,Server Crash,High,DevOps,Head Office,Resolved,Reboot,58.0,16,0,3,8,1
+INC100540,Security Breach,Critical,DevOps,Head Office,Resolved,Security Mitigation,35.0,5,0,3,4,1
+INC100541,Network Outage,Medium,IT Support,Data Center A,Resolved,Security Mitigation,45.0,1,4,8,12,1
+INC100542,Application Bug,Medium,Database Admin,Data Center A,Resolved,Security Mitigation,50.0,23,6,10,12,1
+INC100543,Application Bug,Critical,Database Admin,Data Center B,Resolved,Reboot,39.0,13,1,6,4,1
+INC100544,Application Bug,Low,Database Admin,Remote Site 2,Closed,Security Mitigation,67.0,8,6,11,24,1
+INC100545,Database Failure,Medium,IT Support,Remote Site 1,Resolved,Patch Applied,22.0,0,3,2,12,1
+INC100546,Server Crash,Medium,IT Support,Remote Site 1,Resolved,Patch Applied,56.0,17,5,1,12,1
+INC100547,Server Crash,High,Security Team,Data Center A,Resolved,Security Mitigation,50.0,16,1,1,8,1
+INC100548,Application Bug,High,Security Team,Remote Site 2,Resolved,Security Mitigation,2.0,9,2,6,8,0
+INC100549,Database Failure,Critical,IT Support,Remote Site 1,Resolved,Security Mitigation,19.0,1,2,2,4,1
+INC100550,Database Failure,Low,IT Support,Remote Site 2,Resolved,Configuration Fix,13.0,2,0,9,24,0
+INC100551,Database Failure,High,DevOps,Head Office,Closed,Security Mitigation,63.0,17,4,5,8,1
+INC100552,Database Failure,Critical,IT Support,Data Center B,Resolved,Patch Applied,52.0,0,3,4,4,1
+INC100553,Database Failure,Critical,IT Support,Remote Site 1,Resolved,Patch Applied,43.0,15,2,10,4,1
+INC100554,Network Outage,Critical,Security Team,Head Office,Resolved,Configuration Fix,44.0,21,6,1,4,1
+INC100555,Security Breach,High,DevOps,Data Center A,Resolved,Patch Applied,30.0,22,2,11,8,1
+INC100556,Security Breach,Critical,Security Team,Head Office,Resolved,Security Mitigation,54.0,18,3,9,4,1
+INC100557,Network Outage,Medium,DevOps,Data Center B,Resolved,Hardware Replacement,53.0,18,3,11,12,1
+INC100558,Database Failure,High,IT Support,Remote Site 2,Resolved,Reboot,21.0,3,4,9,8,1
+INC100559,Security Breach,Critical,Network Team,Remote Site 2,Resolved,Patch Applied,4.0,3,6,10,4,0
+INC100560,Server Crash,Medium,IT Support,Data Center B,Resolved,Reboot,59.0,6,4,1,12,1
+INC100561,Security Breach,Medium,Security Team,Head Office,Closed,Security Mitigation,60.0,2,1,10,12,1
+INC100562,Application Bug,Low,IT Support,Data Center B,Closed,Security Mitigation,63.0,3,1,5,24,1
+INC100563,Application Bug,Medium,DevOps,Remote Site 2,Resolved,Configuration Fix,45.0,4,6,7,12,1
+INC100564,Server Crash,High,IT Support,Head Office,Resolved,Reboot,50.0,8,2,1,8,1
+INC100565,Server Crash,Medium,Network Team,Data Center B,Resolved,Configuration Fix,27.0,7,0,8,12,1
+INC100566,Application Bug,Low,IT Support,Remote Site 1,Resolved,Patch Applied,17.0,3,3,11,24,0
+INC100567,Database Failure,Low,Network Team,Head Office,Resolved,Configuration Fix,40.0,15,4,7,24,1
+INC100568,Application Bug,Critical,Security Team,Remote Site 1,Resolved,Hardware Replacement,28.0,0,2,3,4,1
+INC100569,Security Breach,Critical,Database Admin,Data Center A,Closed,Configuration Fix,66.0,12,2,1,4,1
+INC100570,Database Failure,High,Security Team,Data Center A,Resolved,Configuration Fix,9.0,10,3,6,8,1
+INC100571,Security Breach,High,Security Team,Head Office,Resolved,Patch Applied,39.0,22,6,8,8,1
+INC100572,Server Crash,Medium,IT Support,Remote Site 2,Resolved,Patch Applied,41.0,22,4,5,12,1
+INC100573,Network Outage,Critical,Security Team,Head Office,Resolved,Hardware Replacement,54.0,13,1,11,4,1
+INC100574,Application Bug,Low,Database Admin,Remote Site 2,Resolved,Configuration Fix,25.0,12,5,10,24,1
+INC100575,Server Crash,Critical,Security Team,Remote Site 2,Resolved,Security Mitigation,22.0,11,4,4,4,1
+INC100576,Server Crash,High,IT Support,Remote Site 1,Resolved,Security Mitigation,34.0,16,1,2,8,1
+INC100577,Server Crash,High,IT Support,Data Center B,Resolved,Configuration Fix,29.0,6,2,5,8,1
+INC100578,Application Bug,High,Security Team,Head Office,Resolved,Hardware Replacement,38.0,20,3,7,8,1
+INC100579,Network Outage,Critical,IT Support,Remote Site 2,Resolved,Hardware Replacement,10.0,1,2,7,4,1
+INC100580,Server Crash,Low,DevOps,Remote Site 2,Resolved,Reboot,53.0,20,3,4,24,1
+INC100581,Server Crash,Medium,Network Team,Head Office,Resolved,Patch Applied,59.0,16,6,5,12,1
+INC100582,Security Breach,Medium,IT Support,Remote Site 1,Resolved,Configuration Fix,23.0,12,1,4,12,1
+INC100583,Network Outage,Low,DevOps,Head Office,Resolved,Security Mitigation,22.0,11,1,3,24,0
+INC100584,Server Crash,Critical,IT Support,Data Center B,Resolved,Hardware Replacement,56.0,17,6,7,4,1
+INC100585,Application Bug,Critical,DevOps,Remote Site 1,Resolved,Security Mitigation,5.0,14,1,1,4,1
+INC100586,Server Crash,High,IT Support,Head Office,Closed,Patch Applied,68.0,8,6,9,8,1
+INC100587,Network Outage,Low,Network Team,Data Center B,Resolved,Configuration Fix,45.0,17,5,8,24,1
+INC100588,Server Crash,Low,DevOps,Remote Site 2,Resolved,Patch Applied,40.0,22,4,7,24,1
+INC100589,Network Outage,Low,Security Team,Head Office,Closed,Security Mitigation,67.0,14,1,6,24,1
+INC100590,Database Failure,High,DevOps,Data Center B,Closed,Configuration Fix,63.0,23,4,4,8,1
+INC100591,Server Crash,Medium,DevOps,Data Center A,Resolved,Patch Applied,29.0,23,0,3,12,1
+INC100592,Server Crash,Low,Database Admin,Remote Site 2,Resolved,Configuration Fix,16.0,16,1,2,24,0
+INC100593,Network Outage,Critical,Security Team,Remote Site 2,Resolved,Security Mitigation,7.0,16,2,7,4,1
+INC100594,Network Outage,Low,IT Support,Data Center A,Resolved,Hardware Replacement,15.0,10,4,8,24,0
+INC100595,Application Bug,Critical,IT Support,Remote Site 2,Closed,Patch Applied,61.0,6,2,3,4,1
+INC100596,Server Crash,Low,Security Team,Remote Site 1,Resolved,Security Mitigation,13.0,20,1,8,24,0
+INC100597,Security Breach,Medium,DevOps,Data Center A,Resolved,Configuration Fix,16.0,14,6,6,12,1
+INC100598,Network Outage,Low,DevOps,Data Center B,Resolved,Configuration Fix,26.0,20,4,7,24,1
+INC100599,Database Failure,Medium,Security Team,Remote Site 1,Resolved,Reboot,21.0,19,2,4,12,1
+INC100600,Database Failure,Critical,Network Team,Remote Site 1,Resolved,Reboot,31.0,20,0,4,4,1
+INC100601,Network Outage,Low,IT Support,Remote Site 2,Closed,Patch Applied,64.0,8,4,8,24,1
+INC100602,Network Outage,Low,IT Support,Head Office,Resolved,Hardware Replacement,30.0,22,2,8,24,1
+INC100603,Security Breach,High,DevOps,Data Center A,Resolved,Reboot,23.0,1,6,2,8,1
+INC100604,Security Breach,High,Security Team,Remote Site 1,Resolved,Reboot,15.0,2,0,9,8,1
+INC100605,Network Outage,Low,Network Team,Data Center B,Resolved,Hardware Replacement,46.0,4,0,4,24,1
+INC100606,Database Failure,High,IT Support,Head Office,Resolved,Patch Applied,44.0,4,5,10,8,1
+INC100607,Network Outage,Critical,DevOps,Remote Site 1,Resolved,Hardware Replacement,50.0,18,1,4,4,1
+INC100608,Application Bug,Medium,IT Support,Data Center B,Resolved,Patch Applied,8.0,15,6,8,12,0
+INC100609,Network Outage,Critical,Database Admin,Remote Site 1,Resolved,Patch Applied,57.0,20,0,9,4,1
+INC100610,Database Failure,Critical,Security Team,Remote Site 2,Resolved,Hardware Replacement,17.0,20,2,1,4,1
+INC100611,Application Bug,Low,DevOps,Remote Site 1,Resolved,Configuration Fix,9.0,16,1,1,24,0
+INC100612,Security Breach,Low,Database Admin,Remote Site 2,Resolved,Configuration Fix,29.0,1,2,9,24,1
+INC100613,Database Failure,Low,DevOps,Data Center B,Resolved,Hardware Replacement,45.0,11,3,6,24,1
+INC100614,Server Crash,Low,IT Support,Data Center B,Closed,Hardware Replacement,61.0,13,4,6,24,1
+INC100615,Server Crash,Low,DevOps,Head Office,Resolved,Configuration Fix,43.0,5,5,3,24,1
+INC100616,Network Outage,Medium,Database Admin,Remote Site 1,Resolved,Reboot,31.0,15,4,5,12,1
+INC100617,Application Bug,Critical,Database Admin,Remote Site 1,Closed,Hardware Replacement,64.0,1,2,1,4,1
+INC100618,Security Breach,Low,DevOps,Data Center A,Resolved,Hardware Replacement,52.0,0,0,2,24,1
+INC100619,Network Outage,Low,IT Support,Remote Site 2,Resolved,Security Mitigation,39.0,18,6,11,24,1
+INC100620,Database Failure,Medium,DevOps,Head Office,Resolved,Patch Applied,7.0,0,5,5,12,0
+INC100621,Application Bug,High,Database Admin,Remote Site 2,Closed,Configuration Fix,61.0,18,1,7,8,1
+INC100622,Application Bug,Low,IT Support,Data Center B,Resolved,Configuration Fix,44.0,17,0,1,24,1
+INC100623,Security Breach,High,IT Support,Data Center A,Resolved,Hardware Replacement,22.0,3,5,11,8,1
+INC100624,Server Crash,Critical,IT Support,Head Office,Resolved,Patch Applied,26.0,12,5,7,4,1
+INC100625,Network Outage,Critical,Network Team,Remote Site 1,Resolved,Configuration Fix,25.0,10,1,10,4,1
+INC100626,Network Outage,Critical,IT Support,Remote Site 2,Resolved,Hardware Replacement,58.0,1,0,2,4,1
+INC100627,Database Failure,Medium,DevOps,Data Center A,Resolved,Security Mitigation,7.0,0,6,6,12,0
+INC100628,Application Bug,Critical,Database Admin,Data Center B,Resolved,Patch Applied,23.0,3,5,8,4,1
+INC100629,Network Outage,Critical,Database Admin,Remote Site 2,Resolved,Security Mitigation,42.0,7,0,10,4,1
+INC100630,Application Bug,Critical,Database Admin,Data Center B,Resolved,Configuration Fix,51.0,9,2,4,4,1
+INC100631,Security Breach,Critical,Network Team,Data Center B,Closed,Configuration Fix,66.0,21,0,5,4,1
+INC100632,Database Failure,High,Database Admin,Data Center B,Resolved,Security Mitigation,27.0,13,5,3,8,1
+INC100633,Security Breach,High,Network Team,Data Center B,Closed,Configuration Fix,70.0,23,3,6,8,1
+INC100634,Network Outage,High,Database Admin,Remote Site 1,Resolved,Security Mitigation,54.0,22,2,7,8,1
+INC100635,Security Breach,Critical,IT Support,Remote Site 2,Resolved,Hardware Replacement,4.0,8,1,2,4,0
+INC100636,Server Crash,Low,IT Support,Data Center B,Resolved,Configuration Fix,21.0,3,0,4,24,0
+INC100637,Security Breach,Medium,IT Support,Head Office,Closed,Reboot,70.0,15,6,3,12,1
+INC100638,Security Breach,Critical,IT Support,Remote Site 2,Closed,Patch Applied,72.0,6,2,10,4,1
+INC100639,Database Failure,Critical,Network Team,Remote Site 2,Resolved,Reboot,37.0,17,1,9,4,1
+INC100640,Application Bug,Critical,DevOps,Head Office,Closed,Reboot,71.0,16,0,11,4,1
+INC100641,Network Outage,High,Network Team,Remote Site 2,Resolved,Patch Applied,57.0,13,2,10,8,1
+INC100642,Security Breach,Medium,Network Team,Head Office,Resolved,Reboot,23.0,4,6,6,12,1
+INC100643,Server Crash,Medium,Database Admin,Data Center A,Resolved,Hardware Replacement,6.0,18,2,5,12,0
+INC100644,Security Breach,High,Network Team,Data Center B,Resolved,Reboot,33.0,8,3,7,8,1
+INC100645,Security Breach,Critical,Network Team,Data Center A,Resolved,Security Mitigation,42.0,11,3,2,4,1
+INC100646,Network Outage,High,DevOps,Remote Site 2,Resolved,Reboot,46.0,18,5,7,8,1
+INC100647,Security Breach,Medium,Network Team,Remote Site 2,Closed,Patch Applied,65.0,6,2,1,12,1
+INC100648,Application Bug,Critical,IT Support,Head Office,Resolved,Configuration Fix,28.0,12,5,3,4,1
+INC100649,Security Breach,High,Security Team,Data Center B,Closed,Hardware Replacement,68.0,8,2,11,8,1
+INC100650,Database Failure,Low,IT Support,Head Office,Resolved,Security Mitigation,31.0,2,5,6,24,1
+INC100651,Database Failure,Medium,IT Support,Head Office,Resolved,Hardware Replacement,15.0,4,4,5,12,1
+INC100652,Security Breach,High,IT Support,Remote Site 2,Resolved,Security Mitigation,48.0,14,0,10,8,1
+INC100653,Database Failure,Critical,DevOps,Data Center A,Resolved,Configuration Fix,25.0,4,3,4,4,1
+INC100654,Database Failure,Low,IT Support,Data Center B,Closed,Security Mitigation,69.0,15,2,11,24,1
+INC100655,Network Outage,Low,Network Team,Data Center B,Resolved,Reboot,55.0,5,1,10,24,1
+INC100656,Server Crash,Critical,IT Support,Data Center B,Resolved,Configuration Fix,59.0,2,1,1,4,1
+INC100657,Network Outage,Low,IT Support,Data Center A,Resolved,Security Mitigation,33.0,18,4,3,24,1
+INC100658,Network Outage,Medium,Security Team,Remote Site 1,Resolved,Hardware Replacement,58.0,10,6,5,12,1
+INC100659,Application Bug,High,IT Support,Remote Site 1,Resolved,Security Mitigation,16.0,19,5,8,8,1
+INC100660,Network Outage,Low,Database Admin,Data Center A,Resolved,Configuration Fix,10.0,5,1,8,24,0
+INC100661,Database Failure,Low,Security Team,Head Office,Resolved,Configuration Fix,12.0,0,4,7,24,0
+INC100662,Application Bug,Critical,DevOps,Data Center A,Resolved,Security Mitigation,21.0,18,0,6,4,1
+INC100663,Server Crash,Medium,DevOps,Remote Site 2,Resolved,Configuration Fix,19.0,16,2,4,12,1
+INC100664,Security Breach,Low,Database Admin,Remote Site 2,Resolved,Reboot,16.0,6,6,2,24,0
+INC100665,Network Outage,Critical,Database Admin,Remote Site 2,Resolved,Configuration Fix,11.0,5,1,11,4,1
+INC100666,Server Crash,High,Network Team,Remote Site 1,Closed,Patch Applied,66.0,2,1,11,8,1
+INC100667,Server Crash,Medium,Network Team,Remote Site 2,Resolved,Patch Applied,33.0,22,4,10,12,1
+INC100668,Network Outage,Medium,Database Admin,Data Center A,Closed,Hardware Replacement,71.0,14,3,10,12,1
+INC100669,Database Failure,Low,Security Team,Data Center A,Resolved,Patch Applied,13.0,13,1,3,24,0
+INC100670,Database Failure,Critical,Security Team,Head Office,Resolved,Reboot,31.0,18,1,2,4,1
+INC100671,Security Breach,Low,Network Team,Head Office,Resolved,Configuration Fix,58.0,20,4,6,24,1
+INC100672,Database Failure,High,Database Admin,Data Center B,Resolved,Configuration Fix,47.0,1,4,7,8,1
+INC100673,Application Bug,Medium,IT Support,Head Office,Resolved,Hardware Replacement,29.0,0,0,3,12,1
+INC100674,Security Breach,High,Network Team,Head Office,Closed,Hardware Replacement,62.0,15,5,10,8,1
+INC100675,Application Bug,High,Security Team,Remote Site 1,Resolved,Patch Applied,14.0,7,6,7,8,1
+INC100676,Database Failure,Low,Security Team,Data Center B,Closed,Patch Applied,69.0,5,3,10,24,1
+INC100677,Security Breach,Low,IT Support,Data Center A,Closed,Reboot,65.0,23,2,10,24,1
+INC100678,Database Failure,Critical,Database Admin,Data Center B,Resolved,Security Mitigation,5.0,8,1,11,4,1
+INC100679,Security Breach,Critical,Network Team,Head Office,Resolved,Security Mitigation,29.0,23,0,5,4,1
+INC100680,Security Breach,Medium,DevOps,Remote Site 2,Resolved,Hardware Replacement,12.0,5,6,6,12,0
+INC100681,Security Breach,Low,Network Team,Remote Site 2,Resolved,Security Mitigation,22.0,12,2,8,24,0
+INC100682,Server Crash,Critical,Network Team,Data Center B,Resolved,Hardware Replacement,19.0,7,4,7,4,1
+INC100683,Security Breach,Low,Network Team,Remote Site 1,Resolved,Configuration Fix,9.0,2,2,3,24,0
+INC100684,Security Breach,Medium,IT Support,Data Center B,Resolved,Hardware Replacement,47.0,18,1,6,12,1
+INC100685,Application Bug,Critical,IT Support,Data Center A,Resolved,Reboot,42.0,8,4,8,4,1
+INC100686,Database Failure,High,Security Team,Remote Site 2,Resolved,Hardware Replacement,23.0,19,3,7,8,1
+INC100687,Application Bug,High,Database Admin,Data Center A,Resolved,Hardware Replacement,33.0,8,1,6,8,1
+INC100688,Server Crash,Critical,Security Team,Head Office,Closed,Security Mitigation,62.0,4,5,6,4,1
+INC100689,Network Outage,Medium,DevOps,Data Center B,Resolved,Security Mitigation,10.0,12,1,3,12,0
+INC100690,Security Breach,Medium,Network Team,Data Center B,Resolved,Security Mitigation,47.0,17,4,2,12,1
+INC100691,Network Outage,Medium,DevOps,Head Office,Resolved,Hardware Replacement,15.0,20,0,9,12,1
+INC100692,Application Bug,Critical,Network Team,Remote Site 2,Resolved,Reboot,53.0,0,6,2,4,1
+INC100693,Server Crash,Low,Network Team,Remote Site 2,Resolved,Patch Applied,21.0,4,6,7,24,0
+INC100694,Database Failure,Low,Database Admin,Data Center B,Resolved,Configuration Fix,22.0,2,5,1,24,0
+INC100695,Server Crash,Critical,Database Admin,Remote Site 2,Resolved,Configuration Fix,3.0,15,0,8,4,0
+INC100696,Network Outage,Medium,DevOps,Remote Site 2,Closed,Patch Applied,62.0,21,6,6,12,1
+INC100697,Server Crash,Critical,Database Admin,Data Center B,Resolved,Security Mitigation,24.0,5,5,9,4,1
+INC100698,Database Failure,High,Network Team,Head Office,Resolved,Security Mitigation,59.0,19,6,11,8,1
+INC100699,Database Failure,Low,Network Team,Remote Site 1,Resolved,Reboot,17.0,13,5,5,24,0
+INC100700,Network Outage,Medium,Database Admin,Remote Site 2,Resolved,Patch Applied,54.0,14,2,8,12,1
+INC100701,Database Failure,Low,Network Team,Remote Site 1,Resolved,Security Mitigation,5.0,17,6,11,24,0
+INC100702,Database Failure,Low,IT Support,Remote Site 1,Resolved,Security Mitigation,17.0,1,1,8,24,0
+INC100703,Database Failure,Low,DevOps,Remote Site 2,Resolved,Reboot,48.0,14,3,5,24,1
+INC100704,Database Failure,Critical,Network Team,Remote Site 1,Resolved,Configuration Fix,49.0,12,3,9,4,1
+INC100705,Database Failure,Low,DevOps,Data Center B,Closed,Patch Applied,62.0,21,2,3,24,1
+INC100706,Network Outage,High,Database Admin,Remote Site 2,Resolved,Patch Applied,33.0,11,6,5,8,1
+INC100707,Network Outage,Low,Database Admin,Remote Site 2,Closed,Reboot,67.0,5,5,2,24,1
+INC100708,Application Bug,Medium,Security Team,Remote Site 1,Resolved,Patch Applied,14.0,15,4,5,12,1
+INC100709,Application Bug,High,Security Team,Remote Site 2,Resolved,Security Mitigation,47.0,13,4,5,8,1
+INC100710,Security Breach,Critical,Network Team,Remote Site 1,Closed,Hardware Replacement,72.0,10,6,7,4,1
+INC100711,Server Crash,High,Database Admin,Remote Site 2,Resolved,Configuration Fix,33.0,2,4,6,8,1
+INC100712,Database Failure,High,DevOps,Data Center B,Resolved,Patch Applied,16.0,20,4,10,8,1
+INC100713,Application Bug,Medium,IT Support,Data Center B,Resolved,Configuration Fix,52.0,12,5,6,12,1
+INC100714,Database Failure,Low,Network Team,Remote Site 1,Resolved,Reboot,1.0,5,0,11,24,0
+INC100715,Server Crash,Critical,Database Admin,Remote Site 1,Resolved,Configuration Fix,9.0,2,2,1,4,1
+INC100716,Server Crash,High,IT Support,Remote Site 2,Resolved,Hardware Replacement,50.0,21,5,1,8,1
+INC100717,Database Failure,High,Database Admin,Data Center A,Resolved,Hardware Replacement,23.0,19,0,11,8,1
+INC100718,Application Bug,Low,Network Team,Remote Site 2,Resolved,Reboot,25.0,14,6,4,24,1
+INC100719,Database Failure,Medium,Database Admin,Data Center B,Resolved,Configuration Fix,5.0,1,6,8,12,0
+INC100720,Server Crash,Low,Network Team,Data Center A,Resolved,Configuration Fix,52.0,4,3,4,24,1
+INC100721,Application Bug,Critical,Database Admin,Data Center B,Resolved,Reboot,2.0,17,1,6,4,0
+INC100722,Network Outage,High,Database Admin,Remote Site 2,Resolved,Configuration Fix,45.0,19,6,4,8,1
+INC100723,Server Crash,Medium,DevOps,Remote Site 1,Resolved,Configuration Fix,1.0,5,0,7,12,0
+INC100724,Server Crash,Critical,Database Admin,Data Center A,Resolved,Security Mitigation,10.0,16,1,7,4,1
+INC100725,Security Breach,High,IT Support,Remote Site 2,Resolved,Security Mitigation,33.0,13,4,11,8,1
+INC100726,Database Failure,High,DevOps,Remote Site 1,Closed,Patch Applied,62.0,5,3,7,8,1
+INC100727,Security Breach,Critical,DevOps,Remote Site 2,Resolved,Hardware Replacement,4.0,5,0,10,4,0
+INC100728,Network Outage,High,IT Support,Remote Site 1,Resolved,Patch Applied,29.0,6,6,8,8,1
+INC100729,Security Breach,Critical,Security Team,Remote Site 2,Resolved,Configuration Fix,2.0,20,0,7,4,0
+INC100730,Server Crash,High,IT Support,Remote Site 1,Resolved,Reboot,44.0,22,5,8,8,1
+INC100731,Database Failure,Medium,DevOps,Head Office,Resolved,Security Mitigation,28.0,16,1,4,12,1
+INC100732,Security Breach,Medium,Network Team,Remote Site 1,Resolved,Patch Applied,26.0,14,6,9,12,1
+INC100733,Server Crash,High,Network Team,Data Center B,Resolved,Security Mitigation,32.0,5,6,3,8,1
+INC100734,Security Breach,Medium,IT Support,Data Center A,Resolved,Hardware Replacement,11.0,2,6,11,12,0
+INC100735,Database Failure,Low,Database Admin,Data Center A,Closed,Configuration Fix,62.0,10,2,10,24,1
+INC100736,Database Failure,High,DevOps,Remote Site 2,Resolved,Hardware Replacement,36.0,12,2,10,8,1
+INC100737,Server Crash,High,DevOps,Data Center B,Resolved,Reboot,17.0,1,4,9,8,1
+INC100738,Database Failure,Critical,DevOps,Remote Site 2,Closed,Configuration Fix,65.0,2,4,1,4,1
+INC100739,Application Bug,Medium,DevOps,Data Center A,Closed,Hardware Replacement,67.0,8,0,8,12,1
+INC100740,Security Breach,Low,IT Support,Data Center B,Resolved,Configuration Fix,13.0,12,3,5,24,0
+INC100741,Security Breach,High,Network Team,Remote Site 2,Resolved,Configuration Fix,31.0,17,5,3,8,1
+INC100742,Application Bug,High,Security Team,Data Center B,Resolved,Patch Applied,55.0,5,2,6,8,1
+INC100743,Application Bug,High,Security Team,Remote Site 1,Resolved,Patch Applied,58.0,10,4,4,8,1
+INC100744,Database Failure,Medium,Database Admin,Data Center B,Resolved,Configuration Fix,13.0,21,4,10,12,1
+INC100745,Server Crash,Critical,DevOps,Data Center B,Resolved,Hardware Replacement,20.0,18,0,2,4,1
+INC100746,Network Outage,Medium,DevOps,Remote Site 1,Closed,Security Mitigation,67.0,21,3,2,12,1
+INC100747,Security Breach,Critical,Security Team,Head Office,Resolved,Hardware Replacement,7.0,21,2,7,4,1
+INC100748,Network Outage,Medium,IT Support,Data Center B,Resolved,Hardware Replacement,33.0,18,4,10,12,1
+INC100749,Network Outage,Critical,Security Team,Head Office,Resolved,Security Mitigation,47.0,5,4,5,4,1
+INC100750,Database Failure,High,Security Team,Data Center A,Resolved,Configuration Fix,16.0,13,0,5,8,1
+INC100751,Database Failure,Medium,Database Admin,Remote Site 2,Closed,Patch Applied,69.0,19,4,8,12,1
+INC100752,Security Breach,High,Security Team,Remote Site 2,Resolved,Reboot,58.0,9,5,6,8,1
+INC100753,Application Bug,High,DevOps,Data Center B,Resolved,Configuration Fix,22.0,8,2,10,8,1
+INC100754,Application Bug,Critical,IT Support,Data Center A,Resolved,Patch Applied,44.0,7,6,2,4,1
+INC100755,Security Breach,High,Security Team,Head Office,Resolved,Configuration Fix,51.0,15,3,7,8,1
+INC100756,Application Bug,High,Database Admin,Remote Site 2,Resolved,Hardware Replacement,58.0,13,0,11,8,1
+INC100757,Server Crash,Medium,IT Support,Data Center B,Resolved,Configuration Fix,31.0,9,3,9,12,1
+INC100758,Network Outage,Medium,Network Team,Remote Site 1,Resolved,Reboot,13.0,3,0,2,12,1
+INC100759,Application Bug,Low,IT Support,Remote Site 1,Resolved,Reboot,11.0,20,3,6,24,0
+INC100760,Security Breach,Medium,IT Support,Remote Site 1,Resolved,Patch Applied,30.0,14,0,4,12,1
+INC100761,Security Breach,Critical,Network Team,Data Center B,Resolved,Reboot,22.0,19,4,6,4,1
+INC100762,Network Outage,High,Security Team,Remote Site 1,Closed,Configuration Fix,70.0,11,5,6,8,1
+INC100763,Database Failure,Critical,Network Team,Remote Site 2,Resolved,Security Mitigation,59.0,10,4,3,4,1
+INC100764,Application Bug,High,Security Team,Remote Site 1,Resolved,Reboot,30.0,4,2,7,8,1
+INC100765,Application Bug,High,Security Team,Remote Site 1,Resolved,Configuration Fix,20.0,16,4,3,8,1
+INC100766,Network Outage,Low,Database Admin,Data Center B,Resolved,Hardware Replacement,37.0,9,5,4,24,1
+INC100767,Database Failure,Low,DevOps,Remote Site 1,Resolved,Hardware Replacement,2.0,6,4,4,24,0
+INC100768,Security Breach,Medium,IT Support,Remote Site 2,Resolved,Hardware Replacement,25.0,12,1,5,12,1
+INC100769,Database Failure,Critical,DevOps,Data Center B,Resolved,Hardware Replacement,50.0,17,6,2,4,1
+INC100770,Server Crash,High,IT Support,Remote Site 1,Resolved,Security Mitigation,31.0,10,3,8,8,1
+INC100771,Database Failure,High,Security Team,Remote Site 2,Resolved,Hardware Replacement,35.0,1,3,10,8,1
+INC100772,Server Crash,Low,Network Team,Data Center B,Resolved,Hardware Replacement,15.0,20,0,4,24,0
+INC100773,Database Failure,Critical,Security Team,Remote Site 2,Resolved,Configuration Fix,25.0,22,6,6,4,1
+INC100774,Network Outage,Medium,IT Support,Remote Site 2,Resolved,Reboot,24.0,13,0,1,12,1
+INC100775,Security Breach,High,Network Team,Remote Site 1,Resolved,Patch Applied,2.0,4,3,9,8,0
+INC100776,Network Outage,Medium,IT Support,Remote Site 1,Resolved,Hardware Replacement,44.0,3,4,3,12,1
+INC100777,Security Breach,Critical,Security Team,Remote Site 1,Resolved,Configuration Fix,5.0,21,6,8,4,1
+INC100778,Network Outage,Medium,IT Support,Head Office,Resolved,Reboot,51.0,18,5,9,12,1
+INC100779,Database Failure,Critical,Network Team,Data Center B,Resolved,Hardware Replacement,33.0,17,4,11,4,1
+INC100780,Network Outage,Low,Network Team,Remote Site 1,Resolved,Patch Applied,57.0,5,4,9,24,1
+INC100781,Network Outage,Medium,DevOps,Data Center A,Resolved,Hardware Replacement,27.0,21,2,6,12,1
+INC100782,Application Bug,High,Security Team,Data Center B,Resolved,Security Mitigation,6.0,18,4,8,8,0
+INC100783,Database Failure,Low,Security Team,Remote Site 1,Resolved,Patch Applied,39.0,22,0,8,24,1
+INC100784,Security Breach,Low,Network Team,Data Center A,Resolved,Configuration Fix,56.0,13,3,3,24,1
+INC100785,Network Outage,Medium,Security Team,Remote Site 2,Resolved,Patch Applied,51.0,20,5,2,12,1
+INC100786,Network Outage,Low,Database Admin,Remote Site 1,Resolved,Configuration Fix,20.0,23,3,8,24,0
+INC100787,Network Outage,Medium,Network Team,Remote Site 1,Resolved,Reboot,44.0,4,3,2,12,1
+INC100788,Network Outage,High,Network Team,Remote Site 2,Resolved,Patch Applied,14.0,3,4,9,8,1
+INC100789,Application Bug,Medium,Security Team,Remote Site 2,Resolved,Hardware Replacement,45.0,3,3,9,12,1
+INC100790,Server Crash,Low,DevOps,Head Office,Resolved,Configuration Fix,18.0,6,2,9,24,0
+INC100791,Network Outage,Critical,DevOps,Remote Site 2,Closed,Hardware Replacement,70.0,14,2,4,4,1
+INC100792,Server Crash,Medium,Database Admin,Head Office,Closed,Configuration Fix,60.0,11,5,4,12,1
+INC100793,Database Failure,Medium,IT Support,Remote Site 2,Resolved,Configuration Fix,58.0,21,3,2,12,1
+INC100794,Security Breach,High,DevOps,Data Center A,Closed,Hardware Replacement,65.0,20,5,9,8,1
+INC100795,Server Crash,Low,Database Admin,Head Office,Resolved,Configuration Fix,31.0,21,5,9,24,1
+INC100796,Network Outage,Critical,Network Team,Remote Site 2,Closed,Security Mitigation,64.0,4,2,8,4,1
+INC100797,Server Crash,High,Security Team,Remote Site 1,Resolved,Reboot,42.0,18,1,8,8,1
+INC100798,Network Outage,Low,IT Support,Data Center B,Resolved,Patch Applied,5.0,23,4,3,24,0
+INC100799,Network Outage,Critical,Network Team,Data Center A,Resolved,Hardware Replacement,50.0,20,3,1,4,1
+INC100800,Database Failure,High,IT Support,Head Office,Resolved,Reboot,10.0,8,5,3,8,1
+INC100801,Server Crash,Critical,IT Support,Remote Site 1,Resolved,Configuration Fix,8.0,9,0,9,4,1
+INC100802,Database Failure,Critical,Security Team,Data Center A,Resolved,Security Mitigation,35.0,3,1,10,4,1
+INC100803,Network Outage,Low,Security Team,Data Center A,Resolved,Security Mitigation,28.0,10,0,11,24,1
+INC100804,Network Outage,Low,Network Team,Remote Site 2,Resolved,Patch Applied,25.0,12,5,5,24,1
+INC100805,Database Failure,Medium,Database Admin,Data Center B,Closed,Hardware Replacement,72.0,14,1,7,12,1
+INC100806,Network Outage,High,DevOps,Remote Site 1,Resolved,Patch Applied,14.0,8,0,10,8,1
+INC100807,Server Crash,Critical,Database Admin,Head Office,Resolved,Security Mitigation,21.0,10,0,8,4,1
+INC100808,Database Failure,Critical,Security Team,Head Office,Resolved,Configuration Fix,42.0,18,5,7,4,1
+INC100809,Application Bug,Critical,Security Team,Remote Site 2,Closed,Patch Applied,70.0,3,5,3,4,1
+INC100810,Application Bug,High,Security Team,Remote Site 1,Resolved,Reboot,51.0,17,5,6,8,1
+INC100811,Network Outage,High,Database Admin,Data Center A,Resolved,Configuration Fix,18.0,16,1,6,8,1
+INC100812,Network Outage,High,Network Team,Data Center B,Resolved,Reboot,41.0,2,5,10,8,1
+INC100813,Security Breach,Medium,IT Support,Data Center A,Resolved,Patch Applied,46.0,3,3,6,12,1
+INC100814,Server Crash,High,Security Team,Remote Site 2,Resolved,Configuration Fix,30.0,6,1,3,8,1
+INC100815,Security Breach,Low,Database Admin,Remote Site 1,Resolved,Reboot,28.0,5,5,7,24,1
+INC100816,Security Breach,Critical,Network Team,Remote Site 1,Resolved,Security Mitigation,13.0,20,1,10,4,1
+INC100817,Security Breach,Low,Database Admin,Remote Site 1,Resolved,Configuration Fix,8.0,18,5,1,24,0
+INC100818,Security Breach,Critical,DevOps,Data Center A,Resolved,Security Mitigation,30.0,21,2,10,4,1
+INC100819,Network Outage,Critical,IT Support,Head Office,Resolved,Configuration Fix,6.0,23,3,6,4,1
+INC100820,Database Failure,Medium,Security Team,Remote Site 2,Resolved,Patch Applied,29.0,4,0,8,12,1
+INC100821,Network Outage,Critical,DevOps,Remote Site 2,Closed,Reboot,65.0,8,0,7,4,1
+INC100822,Server Crash,Critical,Security Team,Remote Site 1,Resolved,Configuration Fix,17.0,12,1,2,4,1
+INC100823,Network Outage,Critical,Database Admin,Data Center A,Resolved,Configuration Fix,52.0,2,5,7,4,1
+INC100824,Network Outage,Critical,Database Admin,Remote Site 1,Resolved,Patch Applied,17.0,3,5,9,4,1
+INC100825,Application Bug,Medium,DevOps,Remote Site 1,Resolved,Security Mitigation,26.0,15,5,8,12,1
+INC100826,Database Failure,Medium,Network Team,Data Center A,Resolved,Configuration Fix,56.0,21,6,3,12,1
+INC100827,Database Failure,Low,IT Support,Remote Site 1,Resolved,Configuration Fix,47.0,13,4,5,24,1
+INC100828,Server Crash,High,Security Team,Remote Site 2,Resolved,Configuration Fix,4.0,17,6,8,8,0
+INC100829,Server Crash,High,Database Admin,Remote Site 1,Resolved,Hardware Replacement,19.0,17,2,7,8,1
+INC100830,Network Outage,Medium,Network Team,Head Office,Resolved,Reboot,11.0,5,4,2,12,0
+INC100831,Network Outage,Medium,Database Admin,Data Center B,Resolved,Reboot,37.0,12,2,10,12,1
+INC100832,Security Breach,Low,Security Team,Remote Site 1,Resolved,Configuration Fix,3.0,19,6,6,24,0
+INC100833,Server Crash,Medium,Network Team,Remote Site 2,Resolved,Security Mitigation,34.0,14,3,6,12,1
+INC100834,Application Bug,Medium,IT Support,Remote Site 1,Closed,Reboot,68.0,23,2,7,12,1
+INC100835,Security Breach,Medium,IT Support,Head Office,Resolved,Reboot,35.0,12,5,3,12,1
+INC100836,Application Bug,Low,IT Support,Remote Site 1,Resolved,Configuration Fix,35.0,9,1,8,24,1
+INC100837,Network Outage,Low,Security Team,Remote Site 1,Resolved,Security Mitigation,49.0,21,1,3,24,1
+INC100838,Network Outage,High,DevOps,Remote Site 2,Resolved,Patch Applied,12.0,10,6,6,8,1
+INC100839,Server Crash,Critical,Database Admin,Data Center A,Resolved,Security Mitigation,32.0,13,6,1,4,1
+INC100840,Security Breach,High,DevOps,Remote Site 1,Resolved,Reboot,21.0,2,2,9,8,1
+INC100841,Security Breach,High,Security Team,Head Office,Closed,Configuration Fix,65.0,14,3,3,8,1
+INC100842,Network Outage,High,DevOps,Data Center A,Closed,Configuration Fix,72.0,6,0,11,8,1
+INC100843,Server Crash,Medium,Security Team,Remote Site 1,Resolved,Reboot,18.0,5,0,8,12,1
+INC100844,Application Bug,Medium,DevOps,Data Center B,Resolved,Hardware Replacement,20.0,13,6,7,12,1
+INC100845,Security Breach,High,DevOps,Remote Site 2,Resolved,Patch Applied,27.0,23,2,2,8,1
+INC100846,Database Failure,Medium,Network Team,Head Office,Closed,Patch Applied,68.0,0,4,8,12,1
+INC100847,Application Bug,Medium,Database Admin,Data Center B,Resolved,Security Mitigation,9.0,8,3,4,12,0
+INC100848,Database Failure,Low,Network Team,Head Office,Resolved,Reboot,19.0,13,6,10,24,0
+INC100849,Security Breach,Critical,DevOps,Head Office,Resolved,Patch Applied,36.0,5,4,5,4,1
+INC100850,Server Crash,Low,Network Team,Data Center B,Resolved,Security Mitigation,35.0,22,1,1,24,1
+INC100851,Database Failure,Medium,Database Admin,Data Center B,Resolved,Configuration Fix,4.0,19,1,3,12,0
+INC100852,Network Outage,Critical,Network Team,Remote Site 2,Closed,Configuration Fix,61.0,19,1,10,4,1
+INC100853,Server Crash,Critical,DevOps,Remote Site 1,Resolved,Patch Applied,21.0,22,4,2,4,1
+INC100854,Server Crash,Low,DevOps,Data Center A,Resolved,Hardware Replacement,35.0,21,0,11,24,1
+INC100855,Server Crash,Medium,Network Team,Data Center A,Resolved,Security Mitigation,57.0,10,4,3,12,1
+INC100856,Application Bug,High,DevOps,Data Center B,Resolved,Reboot,52.0,22,5,5,8,1
+INC100857,Database Failure,Critical,Security Team,Remote Site 1,Closed,Security Mitigation,69.0,17,5,7,4,1
+INC100858,Network Outage,Low,DevOps,Remote Site 1,Resolved,Patch Applied,6.0,6,2,10,24,0
+INC100859,Database Failure,Critical,IT Support,Remote Site 2,Closed,Reboot,67.0,5,6,5,4,1
+INC100860,Server Crash,High,DevOps,Remote Site 1,Resolved,Configuration Fix,39.0,20,0,10,8,1
+INC100861,Application Bug,Medium,DevOps,Head Office,Resolved,Security Mitigation,7.0,6,6,7,12,0
+INC100862,Server Crash,Critical,DevOps,Data Center A,Closed,Reboot,65.0,15,1,9,4,1
+INC100863,Server Crash,Medium,DevOps,Remote Site 1,Resolved,Reboot,58.0,9,5,4,12,1
+INC100864,Server Crash,Critical,Database Admin,Data Center B,Resolved,Reboot,59.0,5,0,10,4,1
+INC100865,Security Breach,High,Network Team,Data Center A,Resolved,Hardware Replacement,15.0,3,3,2,8,1
+INC100866,Security Breach,Low,Database Admin,Remote Site 1,Closed,Security Mitigation,66.0,2,3,9,24,1
+INC100867,Server Crash,Critical,Database Admin,Remote Site 1,Resolved,Configuration Fix,22.0,23,0,1,4,1
+INC100868,Database Failure,Medium,Network Team,Data Center B,Resolved,Hardware Replacement,7.0,1,5,3,12,0
+INC100869,Security Breach,High,DevOps,Head Office,Resolved,Reboot,24.0,19,3,8,8,1
+INC100870,Server Crash,Medium,IT Support,Remote Site 2,Resolved,Reboot,33.0,6,2,9,12,1
+INC100871,Application Bug,Critical,DevOps,Remote Site 2,Resolved,Security Mitigation,1.0,14,2,10,4,0
+INC100872,Application Bug,Medium,Network Team,Remote Site 2,Closed,Hardware Replacement,61.0,2,1,8,12,1
+INC100873,Application Bug,Critical,IT Support,Remote Site 2,Resolved,Patch Applied,1.0,20,1,7,4,0
+INC100874,Database Failure,High,Database Admin,Remote Site 2,Resolved,Reboot,27.0,22,6,10,8,1
+INC100875,Server Crash,Medium,IT Support,Head Office,Resolved,Reboot,19.0,12,5,1,12,1
+INC100876,Database Failure,High,Security Team,Data Center A,Resolved,Hardware Replacement,14.0,17,2,1,8,1
+INC100877,Server Crash,Medium,Security Team,Remote Site 2,Closed,Patch Applied,72.0,14,1,8,12,1
+INC100878,Application Bug,High,IT Support,Data Center A,Resolved,Configuration Fix,39.0,7,3,9,8,1
+INC100879,Security Breach,Critical,IT Support,Remote Site 1,Closed,Reboot,71.0,20,0,10,4,1
+INC100880,Security Breach,Critical,Network Team,Data Center A,Resolved,Configuration Fix,36.0,2,6,8,4,1
+INC100881,Database Failure,Critical,Database Admin,Data Center B,Resolved,Security Mitigation,27.0,12,6,8,4,1
+INC100882,Network Outage,Low,Database Admin,Remote Site 2,Closed,Security Mitigation,62.0,22,1,1,24,1
+INC100883,Security Breach,Critical,Database Admin,Head Office,Closed,Security Mitigation,68.0,15,4,3,4,1
+INC100884,Database Failure,High,Network Team,Remote Site 2,Closed,Security Mitigation,64.0,1,3,7,8,1
+INC100885,Application Bug,Critical,Network Team,Remote Site 2,Resolved,Patch Applied,38.0,10,2,3,4,1
+INC100886,Network Outage,Low,IT Support,Remote Site 1,Resolved,Patch Applied,16.0,11,3,8,24,0
+INC100887,Database Failure,Critical,DevOps,Data Center A,Resolved,Security Mitigation,45.0,22,1,4,4,1
+INC100888,Server Crash,Low,Network Team,Head Office,Resolved,Configuration Fix,9.0,20,2,3,24,0
+INC100889,Security Breach,High,IT Support,Data Center A,Resolved,Configuration Fix,43.0,2,3,8,8,1
+INC100890,Application Bug,Low,Network Team,Data Center B,Resolved,Hardware Replacement,44.0,19,0,4,24,1
+INC100891,Application Bug,Low,Network Team,Remote Site 1,Resolved,Security Mitigation,59.0,0,4,2,24,1
+INC100892,Security Breach,Critical,DevOps,Data Center A,Closed,Configuration Fix,67.0,1,5,10,4,1
+INC100893,Database Failure,High,Database Admin,Remote Site 2,Resolved,Security Mitigation,27.0,9,6,1,8,1
+INC100894,Security Breach,High,IT Support,Data Center B,Resolved,Configuration Fix,4.0,17,4,4,8,0
+INC100895,Application Bug,Medium,Database Admin,Remote Site 2,Resolved,Security Mitigation,24.0,23,6,5,12,1
+INC100896,Network Outage,High,Security Team,Data Center A,Resolved,Reboot,53.0,16,1,4,8,1
+INC100897,Application Bug,Medium,Security Team,Remote Site 1,Resolved,Patch Applied,39.0,2,3,10,12,1
+INC100898,Database Failure,High,Network Team,Data Center A,Resolved,Patch Applied,5.0,17,1,5,8,0
+INC100899,Network Outage,Critical,Database Admin,Data Center A,Closed,Security Mitigation,62.0,17,6,9,4,1
+INC100900,Server Crash,Medium,Security Team,Remote Site 1,Closed,Configuration Fix,68.0,0,5,9,12,1
+INC100901,Security Breach,Medium,IT Support,Remote Site 2,Resolved,Patch Applied,17.0,23,6,8,12,1
+INC100902,Network Outage,Critical,DevOps,Remote Site 2,Resolved,Configuration Fix,1.0,12,4,2,4,0
+INC100903,Network Outage,Low,Security Team,Remote Site 1,Resolved,Reboot,6.0,12,2,10,24,0
+INC100904,Database Failure,High,IT Support,Remote Site 2,Resolved,Patch Applied,40.0,21,6,9,8,1
+INC100905,Security Breach,Medium,Network Team,Head Office,Closed,Configuration Fix,69.0,10,3,4,12,1
+INC100906,Application Bug,Low,Security Team,Data Center B,Resolved,Reboot,36.0,18,4,2,24,1
+INC100907,Network Outage,Low,Network Team,Remote Site 2,Closed,Configuration Fix,71.0,13,0,4,24,1
+INC100908,Security Breach,Medium,Security Team,Remote Site 2,Resolved,Reboot,22.0,13,6,3,12,1
+INC100909,Security Breach,High,Database Admin,Remote Site 1,Resolved,Reboot,17.0,7,3,1,8,1
+INC100910,Application Bug,Low,IT Support,Remote Site 1,Resolved,Hardware Replacement,12.0,8,4,1,24,0
+INC100911,Application Bug,Medium,Database Admin,Remote Site 2,Resolved,Security Mitigation,58.0,20,4,8,12,1
+INC100912,Security Breach,High,Security Team,Data Center B,Closed,Reboot,69.0,8,5,8,8,1
+INC100913,Application Bug,Medium,IT Support,Remote Site 1,Resolved,Configuration Fix,59.0,4,5,2,12,1
+INC100914,Application Bug,Critical,Network Team,Data Center B,Resolved,Configuration Fix,34.0,1,0,2,4,1
+INC100915,Application Bug,Medium,Security Team,Head Office,Closed,Reboot,63.0,17,0,6,12,1
+INC100916,Network Outage,Critical,IT Support,Head Office,Closed,Patch Applied,60.0,9,2,6,4,1
+INC100917,Security Breach,High,Database Admin,Remote Site 2,Closed,Reboot,66.0,11,1,2,8,1
+INC100918,Application Bug,Low,Security Team,Remote Site 2,Resolved,Configuration Fix,10.0,16,4,8,24,0
+INC100919,Database Failure,Critical,DevOps,Remote Site 2,Resolved,Security Mitigation,31.0,2,1,5,4,1
+INC100920,Server Crash,Medium,DevOps,Remote Site 1,Resolved,Patch Applied,44.0,13,1,1,12,1
+INC100921,Database Failure,Critical,DevOps,Remote Site 2,Resolved,Security Mitigation,44.0,17,2,9,4,1
+INC100922,Server Crash,Medium,IT Support,Remote Site 2,Closed,Reboot,63.0,14,5,10,12,1
+INC100923,Database Failure,Critical,Security Team,Remote Site 2,Resolved,Patch Applied,57.0,7,5,2,4,1
+INC100924,Security Breach,Critical,IT Support,Remote Site 2,Resolved,Configuration Fix,49.0,2,2,2,4,1
+INC100925,Application Bug,Low,IT Support,Data Center B,Resolved,Security Mitigation,18.0,21,5,10,24,0
+INC100926,Network Outage,Medium,Network Team,Remote Site 1,Resolved,Hardware Replacement,38.0,8,6,6,12,1
+INC100927,Database Failure,Critical,Network Team,Data Center B,Resolved,Configuration Fix,41.0,14,1,8,4,1
+INC100928,Database Failure,High,DevOps,Head Office,Resolved,Security Mitigation,2.0,11,2,1,8,0
+INC100929,Database Failure,Critical,Network Team,Head Office,Resolved,Security Mitigation,48.0,7,0,1,4,1
+INC100930,Network Outage,Low,Database Admin,Head Office,Resolved,Reboot,37.0,10,2,2,24,1
+INC100931,Server Crash,Critical,Database Admin,Remote Site 1,Resolved,Hardware Replacement,41.0,9,3,8,4,1
+INC100932,Application Bug,Critical,DevOps,Remote Site 2,Resolved,Hardware Replacement,23.0,2,2,3,4,1
+INC100933,Server Crash,Medium,Database Admin,Remote Site 1,Resolved,Hardware Replacement,47.0,20,0,10,12,1
+INC100934,Server Crash,High,Network Team,Data Center B,Resolved,Reboot,10.0,23,3,1,8,1
+INC100935,Server Crash,Critical,DevOps,Data Center B,Resolved,Hardware Replacement,18.0,21,0,1,4,1
+INC100936,Application Bug,Critical,Database Admin,Data Center B,Closed,Hardware Replacement,66.0,2,1,6,4,1
+INC100937,Database Failure,Critical,DevOps,Head Office,Resolved,Hardware Replacement,24.0,1,0,3,4,1
+INC100938,Database Failure,Low,Database Admin,Remote Site 1,Resolved,Security Mitigation,31.0,1,2,10,24,1
+INC100939,Security Breach,Critical,Database Admin,Remote Site 2,Resolved,Reboot,5.0,6,6,5,4,1
+INC100940,Database Failure,Critical,Security Team,Data Center A,Closed,Reboot,62.0,1,2,7,4,1
+INC100941,Server Crash,High,DevOps,Remote Site 2,Closed,Security Mitigation,67.0,16,5,1,8,1
+INC100942,Network Outage,Medium,DevOps,Data Center A,Closed,Security Mitigation,70.0,11,2,8,12,1
+INC100943,Security Breach,Low,Security Team,Remote Site 2,Resolved,Hardware Replacement,2.0,17,6,9,24,0
+INC100944,Application Bug,Critical,Database Admin,Head Office,Resolved,Configuration Fix,46.0,16,3,5,4,1
+INC100945,Security Breach,Medium,IT Support,Remote Site 2,Resolved,Security Mitigation,39.0,19,3,9,12,1
+INC100946,Security Breach,Low,DevOps,Remote Site 2,Resolved,Configuration Fix,7.0,17,1,2,24,0
+INC100947,Database Failure,Low,Security Team,Remote Site 1,Resolved,Security Mitigation,17.0,3,0,1,24,0
+INC100948,Network Outage,High,Security Team,Data Center B,Resolved,Configuration Fix,36.0,4,0,7,8,1
+INC100949,Security Breach,Low,IT Support,Remote Site 2,Resolved,Hardware Replacement,20.0,14,3,2,24,0
+INC100950,Security Breach,Medium,Security Team,Data Center B,Resolved,Security Mitigation,24.0,12,4,6,12,1
+INC100951,Network Outage,High,IT Support,Data Center B,Resolved,Hardware Replacement,20.0,6,0,7,8,1
+INC100952,Application Bug,Critical,Network Team,Remote Site 1,Resolved,Patch Applied,22.0,19,2,9,4,1
+INC100953,Database Failure,High,IT Support,Head Office,Resolved,Reboot,15.0,20,5,9,8,1
+INC100954,Server Crash,Critical,DevOps,Remote Site 1,Closed,Security Mitigation,61.0,20,4,4,4,1
+INC100955,Server Crash,Critical,DevOps,Remote Site 1,Resolved,Security Mitigation,19.0,15,5,3,4,1
+INC100956,Application Bug,Low,Security Team,Remote Site 1,Resolved,Security Mitigation,41.0,9,4,5,24,1
+INC100957,Network Outage,Low,Database Admin,Head Office,Resolved,Security Mitigation,56.0,9,4,11,24,1
+INC100958,Security Breach,High,Security Team,Head Office,Resolved,Configuration Fix,13.0,20,0,9,8,1
+INC100959,Database Failure,Critical,DevOps,Data Center B,Resolved,Security Mitigation,25.0,15,5,9,4,1
+INC100960,Security Breach,Medium,Security Team,Remote Site 2,Resolved,Reboot,2.0,14,3,1,12,0
+INC100961,Network Outage,Critical,IT Support,Remote Site 2,Resolved,Configuration Fix,58.0,11,0,2,4,1
+INC100962,Server Crash,High,Security Team,Data Center B,Resolved,Security Mitigation,4.0,14,4,1,8,0
+INC100963,Network Outage,Low,Database Admin,Data Center B,Resolved,Reboot,16.0,10,2,11,24,0
+INC100964,Network Outage,Medium,DevOps,Remote Site 2,Resolved,Reboot,24.0,3,1,10,12,1
+INC100965,Server Crash,High,Security Team,Remote Site 1,Resolved,Hardware Replacement,10.0,10,1,8,8,1
+INC100966,Security Breach,Critical,Security Team,Head Office,Resolved,Configuration Fix,10.0,6,6,2,4,1
+INC100967,Network Outage,Critical,DevOps,Head Office,Resolved,Configuration Fix,34.0,12,6,1,4,1
+INC100968,Server Crash,Critical,IT Support,Remote Site 1,Resolved,Security Mitigation,26.0,22,1,11,4,1
+INC100969,Application Bug,Medium,DevOps,Data Center A,Closed,Hardware Replacement,70.0,2,0,2,12,1
+INC100970,Server Crash,Low,DevOps,Head Office,Resolved,Reboot,5.0,6,0,2,24,0
+INC100971,Network Outage,High,DevOps,Data Center A,Closed,Patch Applied,64.0,0,5,11,8,1
+INC100972,Network Outage,Low,DevOps,Head Office,Resolved,Hardware Replacement,43.0,17,2,2,24,1
+INC100973,Database Failure,Low,Database Admin,Remote Site 1,Resolved,Hardware Replacement,56.0,4,2,6,24,1
+INC100974,Network Outage,Medium,IT Support,Remote Site 1,Closed,Reboot,62.0,16,3,11,12,1
+INC100975,Database Failure,High,Security Team,Head Office,Resolved,Reboot,8.0,17,3,5,8,0
+INC100976,Security Breach,High,IT Support,Remote Site 1,Resolved,Patch Applied,38.0,13,0,9,8,1
+INC100977,Server Crash,Low,DevOps,Data Center B,Resolved,Reboot,50.0,0,4,4,24,1
+INC100978,Security Breach,Critical,IT Support,Remote Site 1,Resolved,Patch Applied,25.0,23,5,9,4,1
+INC100979,Network Outage,Medium,IT Support,Remote Site 2,Closed,Hardware Replacement,63.0,9,4,3,12,1
+INC100980,Network Outage,High,DevOps,Remote Site 2,Resolved,Reboot,58.0,8,0,11,8,1
+INC100981,Network Outage,High,IT Support,Head Office,Resolved,Hardware Replacement,6.0,21,2,9,8,0
+INC100982,Network Outage,Medium,Database Admin,Remote Site 1,Closed,Patch Applied,69.0,21,5,11,12,1
+INC100983,Database Failure,Medium,IT Support,Data Center A,Resolved,Hardware Replacement,19.0,0,6,9,12,1
+INC100984,Network Outage,Critical,Database Admin,Data Center A,Resolved,Reboot,17.0,20,5,3,4,1
+INC100985,Server Crash,Low,Security Team,Data Center A,Resolved,Security Mitigation,22.0,17,1,6,24,0
+INC100986,Network Outage,Low,IT Support,Remote Site 1,Resolved,Reboot,29.0,2,0,7,24,1
+INC100987,Server Crash,Critical,Security Team,Remote Site 1,Resolved,Security Mitigation,16.0,16,5,4,4,1
+INC100988,Database Failure,Medium,Security Team,Data Center B,Resolved,Security Mitigation,6.0,20,1,9,12,0
+INC100989,Server Crash,High,IT Support,Data Center A,Resolved,Hardware Replacement,19.0,11,2,4,8,1
+INC100990,Server Crash,High,Database Admin,Data Center B,Resolved,Security Mitigation,32.0,17,2,5,8,1
+INC100991,Network Outage,Medium,IT Support,Remote Site 2,Resolved,Reboot,21.0,9,2,5,12,1
+INC100992,Application Bug,Low,IT Support,Data Center A,Resolved,Security Mitigation,12.0,5,5,3,24,0
+INC100993,Security Breach,Critical,DevOps,Data Center B,Resolved,Configuration Fix,19.0,8,0,3,4,1
+INC100994,Database Failure,Critical,DevOps,Data Center B,Resolved,Security Mitigation,23.0,4,5,11,4,1
+INC100995,Network Outage,Medium,DevOps,Remote Site 2,Resolved,Configuration Fix,12.0,8,2,11,12,0
+INC100996,Security Breach,Critical,IT Support,Remote Site 2,Resolved,Reboot,25.0,10,3,3,4,1
+INC100997,Database Failure,Low,Database Admin,Head Office,Closed,Security Mitigation,70.0,11,0,10,24,1
+INC100998,Server Crash,Critical,Network Team,Head Office,Resolved,Reboot,25.0,2,4,1,4,1
+INC100999,Server Crash,Critical,DevOps,Data Center B,Resolved,Reboot,6.0,12,5,2,4,1
+INC101000,Security Breach,High,Network Team,Remote Site 1,Resolved,Security Mitigation,43.0,19,1,3,8,1
+INC101001,Application Bug,Low,IT Support,Data Center A,Closed,Patch Applied,69.0,16,0,11,24,1
+INC101002,Server Crash,Low,DevOps,Remote Site 2,Resolved,Patch Applied,10.0,14,4,2,24,0
+INC101003,Application Bug,High,DevOps,Data Center B,Resolved,Patch Applied,42.0,0,3,9,8,1
+INC101004,Network Outage,High,Network Team,Data Center A,Resolved,Patch Applied,53.0,22,3,3,8,1
+INC101005,Application Bug,Medium,IT Support,Remote Site 1,Closed,Reboot,63.0,17,3,7,12,1
+INC101006,Application Bug,Medium,Network Team,Remote Site 2,Resolved,Hardware Replacement,23.0,7,1,6,12,1
+INC101007,Security Breach,Medium,DevOps,Data Center B,Resolved,Configuration Fix,46.0,17,5,8,12,1
+INC101008,Server Crash,High,Network Team,Data Center A,Resolved,Configuration Fix,8.0,6,5,8,8,0
+INC101009,Server Crash,Low,DevOps,Remote Site 1,Resolved,Configuration Fix,22.0,18,2,5,24,0
+INC101010,Server Crash,High,Database Admin,Data Center B,Resolved,Security Mitigation,22.0,11,3,9,8,1
+INC101011,Database Failure,Medium,IT Support,Remote Site 1,Closed,Hardware Replacement,67.0,12,5,10,12,1
+INC101012,Server Crash,Critical,DevOps,Head Office,Resolved,Patch Applied,55.0,22,4,1,4,1
+INC101013,Server Crash,High,DevOps,Remote Site 2,Resolved,Security Mitigation,20.0,21,5,3,8,1
+INC101014,Network Outage,Critical,IT Support,Data Center A,Closed,Reboot,65.0,15,6,6,4,1
+INC101015,Application Bug,Critical,DevOps,Data Center A,Closed,Patch Applied,64.0,10,0,6,4,1
+INC101016,Network Outage,Low,DevOps,Data Center B,Resolved,Configuration Fix,46.0,7,3,2,24,1
+INC101017,Server Crash,Low,IT Support,Remote Site 1,Resolved,Patch Applied,40.0,8,4,8,24,1
+INC101018,Application Bug,Low,DevOps,Remote Site 1,Resolved,Hardware Replacement,18.0,10,4,9,24,0
+INC101019,Server Crash,High,DevOps,Data Center A,Resolved,Hardware Replacement,10.0,16,6,10,8,1
+INC101020,Security Breach,Low,Security Team,Remote Site 1,Resolved,Security Mitigation,35.0,23,4,9,24,1
+INC101021,Database Failure,Medium,IT Support,Remote Site 2,Resolved,Reboot,43.0,15,6,10,12,1
+INC101022,Database Failure,High,IT Support,Data Center A,Resolved,Hardware Replacement,47.0,17,4,5,8,1
+INC101023,Database Failure,Low,Security Team,Head Office,Closed,Reboot,72.0,19,3,2,24,1
+INC101024,Database Failure,Medium,Network Team,Head Office,Closed,Reboot,70.0,10,4,3,12,1
+INC101025,Application Bug,Medium,Network Team,Head Office,Resolved,Security Mitigation,35.0,9,1,4,12,1
+INC101026,Application Bug,High,IT Support,Data Center A,Resolved,Hardware Replacement,45.0,6,1,5,8,1
+INC101027,Application Bug,Low,DevOps,Remote Site 2,Closed,Configuration Fix,69.0,12,0,8,24,1
+INC101028,Application Bug,High,IT Support,Data Center B,Resolved,Reboot,59.0,10,3,10,8,1
+INC101029,Network Outage,Critical,Network Team,Head Office,Resolved,Reboot,10.0,2,5,11,4,1
+INC101030,Server Crash,High,IT Support,Data Center B,Resolved,Patch Applied,20.0,9,1,6,8,1
+INC101031,Database Failure,Low,Security Team,Remote Site 1,Closed,Patch Applied,70.0,22,1,11,24,1
+INC101032,Application Bug,High,DevOps,Remote Site 1,Resolved,Configuration Fix,3.0,19,6,9,8,0
+INC101033,Server Crash,Low,IT Support,Data Center B,Closed,Configuration Fix,67.0,23,4,10,24,1
+INC101034,Application Bug,High,Security Team,Remote Site 1,Closed,Security Mitigation,68.0,12,6,7,8,1
+INC101035,Application Bug,Critical,Security Team,Remote Site 2,Resolved,Patch Applied,40.0,0,3,2,4,1
+INC101036,Security Breach,Medium,DevOps,Head Office,Resolved,Reboot,37.0,8,2,11,12,1
+INC101037,Server Crash,High,Security Team,Remote Site 1,Resolved,Security Mitigation,22.0,9,4,11,8,1
+INC101038,Server Crash,High,Network Team,Data Center B,Resolved,Patch Applied,20.0,11,6,10,8,1
+INC101039,Server Crash,Low,IT Support,Head Office,Resolved,Hardware Replacement,17.0,2,0,7,24,0
+INC101040,Security Breach,High,Network Team,Data Center B,Resolved,Configuration Fix,5.0,23,2,7,8,0
+INC101041,Security Breach,Medium,Security Team,Remote Site 1,Resolved,Security Mitigation,21.0,6,2,7,12,1
+INC101042,Security Breach,Low,IT Support,Remote Site 1,Closed,Patch Applied,64.0,19,2,11,24,1
+INC101043,Application Bug,High,Network Team,Data Center A,Closed,Security Mitigation,70.0,3,2,11,8,1
+INC101044,Security Breach,High,DevOps,Head Office,Resolved,Security Mitigation,19.0,23,1,11,8,1
+INC101045,Application Bug,High,IT Support,Remote Site 1,Resolved,Patch Applied,6.0,6,6,11,8,0
+INC101046,Database Failure,Low,Security Team,Data Center A,Resolved,Hardware Replacement,29.0,2,4,5,24,1
+INC101047,Security Breach,Low,Security Team,Data Center A,Resolved,Security Mitigation,25.0,13,4,7,24,1
+INC101048,Database Failure,Medium,Security Team,Data Center B,Resolved,Security Mitigation,11.0,16,0,1,12,0
+INC101049,Application Bug,Low,Database Admin,Remote Site 1,Closed,Configuration Fix,63.0,8,3,3,24,1
+INC101050,Database Failure,Low,Security Team,Remote Site 1,Resolved,Configuration Fix,55.0,11,1,2,24,1
+INC101051,Application Bug,High,IT Support,Head Office,Resolved,Configuration Fix,45.0,17,5,4,8,1
+INC101052,Application Bug,Low,Network Team,Remote Site 1,Resolved,Hardware Replacement,54.0,2,1,9,24,1
+INC101053,Security Breach,Medium,DevOps,Remote Site 1,Resolved,Patch Applied,12.0,15,5,2,12,0
+INC101054,Server Crash,High,DevOps,Remote Site 2,Resolved,Security Mitigation,9.0,11,2,4,8,1
+INC101055,Application Bug,Low,IT Support,Remote Site 1,Resolved,Hardware Replacement,35.0,1,1,8,24,1
+INC101056,Server Crash,Critical,Database Admin,Data Center B,Resolved,Hardware Replacement,24.0,0,5,3,4,1
+INC101057,Security Breach,Critical,IT Support,Head Office,Resolved,Hardware Replacement,39.0,20,4,10,4,1
+INC101058,Database Failure,Critical,Network Team,Data Center A,Resolved,Patch Applied,1.0,1,4,9,4,0
+INC101059,Security Breach,High,DevOps,Data Center A,Resolved,Hardware Replacement,37.0,4,6,8,8,1
+INC101060,Server Crash,Critical,Network Team,Data Center A,Resolved,Hardware Replacement,36.0,17,5,2,4,1
+INC101061,Network Outage,High,Database Admin,Remote Site 1,Resolved,Configuration Fix,56.0,1,4,7,8,1
+INC101062,Application Bug,Low,Security Team,Remote Site 2,Resolved,Configuration Fix,3.0,4,5,9,24,0
+INC101063,Server Crash,Low,Network Team,Head Office,Resolved,Configuration Fix,18.0,8,3,6,24,0
+INC101064,Server Crash,Low,Security Team,Head Office,Resolved,Reboot,46.0,4,3,5,24,1
+INC101065,Security Breach,High,Database Admin,Data Center A,Resolved,Patch Applied,25.0,9,0,6,8,1
+INC101066,Network Outage,Medium,Database Admin,Head Office,Resolved,Configuration Fix,41.0,19,3,10,12,1
+INC101067,Security Breach,High,IT Support,Remote Site 2,Resolved,Patch Applied,46.0,23,1,7,8,1
+INC101068,Network Outage,Medium,Database Admin,Head Office,Closed,Hardware Replacement,63.0,7,1,5,12,1
+INC101069,Security Breach,Medium,IT Support,Data Center B,Closed,Patch Applied,65.0,18,3,2,12,1
+INC101070,Server Crash,Low,DevOps,Remote Site 1,Resolved,Reboot,10.0,16,4,11,24,0
+INC101071,Server Crash,Low,DevOps,Head Office,Resolved,Patch Applied,47.0,8,1,4,24,1
+INC101072,Application Bug,High,Network Team,Head Office,Resolved,Patch Applied,16.0,19,2,1,8,1
+INC101073,Server Crash,Medium,Network Team,Head Office,Resolved,Patch Applied,27.0,18,0,2,12,1
+INC101074,Network Outage,Critical,IT Support,Data Center A,Closed,Hardware Replacement,62.0,10,6,1,4,1
+INC101075,Network Outage,Medium,IT Support,Data Center A,Closed,Security Mitigation,66.0,16,4,9,12,1
+INC101076,Network Outage,Critical,IT Support,Head Office,Resolved,Configuration Fix,9.0,18,0,1,4,1
+INC101077,Network Outage,Low,IT Support,Remote Site 2,Resolved,Patch Applied,26.0,2,0,3,24,1
+INC101078,Security Breach,Low,IT Support,Data Center B,Resolved,Security Mitigation,36.0,17,1,10,24,1
+INC101079,Security Breach,High,Network Team,Remote Site 2,Resolved,Security Mitigation,31.0,12,0,9,8,1
+INC101080,Database Failure,Low,IT Support,Remote Site 2,Resolved,Security Mitigation,2.0,12,1,9,24,0
+INC101081,Server Crash,Medium,Security Team,Data Center B,Closed,Reboot,69.0,18,6,11,12,1
+INC101082,Network Outage,Medium,Database Admin,Remote Site 1,Resolved,Hardware Replacement,24.0,2,6,5,12,1
+INC101083,Network Outage,Medium,Security Team,Remote Site 1,Resolved,Security Mitigation,28.0,18,4,5,12,1
+INC101084,Server Crash,Critical,IT Support,Head Office,Closed,Reboot,60.0,4,0,2,4,1
+INC101085,Database Failure,Medium,DevOps,Head Office,Resolved,Security Mitigation,37.0,13,2,8,12,1
+INC101086,Network Outage,Low,Security Team,Remote Site 1,Resolved,Configuration Fix,50.0,11,4,2,24,1
+INC101087,Application Bug,High,DevOps,Data Center B,Resolved,Configuration Fix,53.0,1,0,7,8,1
+INC101088,Application Bug,Medium,IT Support,Remote Site 1,Resolved,Patch Applied,48.0,12,5,11,12,1
+INC101089,Network Outage,Critical,IT Support,Remote Site 1,Closed,Reboot,67.0,12,2,5,4,1
+INC101090,Network Outage,Medium,DevOps,Remote Site 1,Resolved,Patch Applied,14.0,5,6,8,12,1
+INC101091,Network Outage,High,Network Team,Head Office,Resolved,Reboot,52.0,8,5,3,8,1
+INC101092,Server Crash,Critical,DevOps,Head Office,Resolved,Hardware Replacement,35.0,1,2,9,4,1
+INC101093,Security Breach,Critical,Database Admin,Remote Site 1,Closed,Configuration Fix,66.0,9,4,6,4,1
+INC101094,Server Crash,Critical,IT Support,Data Center A,Closed,Hardware Replacement,63.0,13,1,3,4,1
+INC101095,Server Crash,Medium,IT Support,Data Center A,Resolved,Reboot,7.0,20,6,9,12,0
+INC101096,Application Bug,Low,Network Team,Remote Site 1,Resolved,Patch Applied,42.0,8,3,7,24,1
+INC101097,Security Breach,Low,IT Support,Remote Site 2,Closed,Hardware Replacement,64.0,23,2,9,24,1
+INC101098,Server Crash,High,DevOps,Remote Site 1,Resolved,Security Mitigation,34.0,7,4,6,8,1
+INC101099,Security Breach,Low,IT Support,Remote Site 1,Resolved,Hardware Replacement,16.0,9,6,10,24,0
+INC101100,Application Bug,High,DevOps,Remote Site 1,Resolved,Reboot,5.0,21,2,6,8,0
+INC101101,Server Crash,High,Network Team,Remote Site 1,Resolved,Configuration Fix,18.0,0,0,5,8,1
+INC101102,Application Bug,Critical,IT Support,Remote Site 2,Closed,Security Mitigation,63.0,9,6,8,4,1
+INC101103,Database Failure,Critical,DevOps,Remote Site 2,Resolved,Security Mitigation,21.0,14,4,10,4,1
+INC101104,Network Outage,Critical,Security Team,Remote Site 1,Resolved,Security Mitigation,49.0,17,5,7,4,1
+INC101105,Security Breach,High,Security Team,Data Center A,Resolved,Patch Applied,6.0,14,2,1,8,0
+INC101106,Security Breach,High,Database Admin,Data Center A,Resolved,Hardware Replacement,44.0,4,2,9,8,1
+INC101107,Network Outage,Critical,Security Team,Head Office,Resolved,Reboot,45.0,14,0,5,4,1
+INC101108,Server Crash,Medium,Network Team,Head Office,Resolved,Reboot,11.0,6,6,7,12,0
+INC101109,Security Breach,Low,Security Team,Data Center B,Closed,Configuration Fix,69.0,17,6,1,24,1
+INC101110,Network Outage,Critical,DevOps,Remote Site 2,Resolved,Configuration Fix,54.0,16,0,6,4,1
+INC101111,Network Outage,Critical,Database Admin,Data Center A,Resolved,Security Mitigation,49.0,0,3,4,4,1
+INC101112,Application Bug,High,Database Admin,Data Center A,Closed,Reboot,63.0,21,2,10,8,1
+INC101113,Server Crash,High,DevOps,Remote Site 2,Resolved,Patch Applied,44.0,23,3,10,8,1
+INC101114,Database Failure,High,Security Team,Remote Site 1,Closed,Reboot,64.0,20,5,3,8,1
+INC101115,Database Failure,Medium,Security Team,Head Office,Resolved,Security Mitigation,39.0,5,2,1,12,1
+INC101116,Application Bug,Medium,Database Admin,Data Center A,Resolved,Security Mitigation,13.0,23,6,9,12,1
+INC101117,Security Breach,High,IT Support,Remote Site 2,Closed,Hardware Replacement,68.0,11,0,9,8,1
+INC101118,Application Bug,Medium,Security Team,Data Center A,Resolved,Security Mitigation,39.0,9,5,8,12,1
+INC101119,Security Breach,Critical,Database Admin,Head Office,Resolved,Hardware Replacement,54.0,7,5,3,4,1
+INC101120,Security Breach,Critical,Database Admin,Data Center B,Resolved,Security Mitigation,3.0,16,6,10,4,0
+INC101121,Server Crash,Critical,Network Team,Remote Site 1,Closed,Security Mitigation,69.0,10,0,4,4,1
+INC101122,Application Bug,Low,Database Admin,Data Center B,Closed,Patch Applied,60.0,8,5,5,24,1
+INC101123,Server Crash,Medium,Security Team,Remote Site 1,Resolved,Reboot,41.0,0,0,5,12,1
+INC101124,Server Crash,Critical,Security Team,Head Office,Resolved,Configuration Fix,21.0,12,3,8,4,1
+INC101125,Database Failure,Medium,DevOps,Data Center B,Resolved,Patch Applied,20.0,18,3,2,12,1
+INC101126,Network Outage,Medium,Security Team,Remote Site 1,Closed,Hardware Replacement,72.0,16,4,6,12,1
+INC101127,Application Bug,Low,Network Team,Data Center B,Resolved,Reboot,18.0,2,2,4,24,0
+INC101128,Security Breach,High,Database Admin,Data Center B,Resolved,Hardware Replacement,6.0,22,2,8,8,0
+INC101129,Network Outage,Low,IT Support,Head Office,Resolved,Reboot,39.0,8,2,7,24,1
+INC101130,Application Bug,High,IT Support,Remote Site 1,Resolved,Patch Applied,18.0,22,6,11,8,1
+INC101131,Network Outage,Low,Database Admin,Remote Site 2,Closed,Configuration Fix,68.0,3,2,11,24,1
+INC101132,Application Bug,Low,Network Team,Remote Site 2,Resolved,Configuration Fix,41.0,17,6,2,24,1
+INC101133,Database Failure,Critical,Network Team,Remote Site 1,Resolved,Reboot,19.0,9,4,3,4,1
+INC101134,Server Crash,Medium,Security Team,Remote Site 1,Resolved,Security Mitigation,33.0,9,6,5,12,1
+INC101135,Network Outage,Critical,Database Admin,Head Office,Resolved,Configuration Fix,15.0,19,0,8,4,1
+INC101136,Database Failure,Critical,DevOps,Data Center B,Resolved,Patch Applied,36.0,19,6,11,4,1
+INC101137,Security Breach,Critical,Security Team,Head Office,Resolved,Reboot,5.0,4,0,1,4,1
+INC101138,Server Crash,High,Database Admin,Remote Site 1,Resolved,Reboot,47.0,13,0,4,8,1
+INC101139,Database Failure,Medium,DevOps,Remote Site 1,Resolved,Configuration Fix,51.0,16,2,1,12,1
+INC101140,Security Breach,Low,Network Team,Head Office,Resolved,Hardware Replacement,21.0,19,1,3,24,0
+INC101141,Security Breach,Critical,IT Support,Head Office,Resolved,Hardware Replacement,11.0,17,1,10,4,1
+INC101142,Application Bug,Critical,Security Team,Remote Site 1,Resolved,Patch Applied,13.0,6,5,10,4,1
+INC101143,Security Breach,Low,Security Team,Remote Site 1,Closed,Configuration Fix,71.0,12,2,7,24,1
+INC101144,Application Bug,Low,IT Support,Data Center B,Resolved,Patch Applied,57.0,2,5,8,24,1
+INC101145,Network Outage,Critical,Network Team,Head Office,Resolved,Reboot,11.0,2,2,4,4,1
+INC101146,Server Crash,Medium,Database Admin,Data Center B,Resolved,Configuration Fix,53.0,2,2,10,12,1
+INC101147,Application Bug,Critical,Network Team,Head Office,Resolved,Configuration Fix,42.0,5,3,2,4,1
+INC101148,Server Crash,Low,DevOps,Head Office,Resolved,Hardware Replacement,51.0,2,6,3,24,1
+INC101149,Database Failure,Medium,IT Support,Data Center A,Closed,Security Mitigation,72.0,2,0,11,12,1
+INC101150,Server Crash,Low,DevOps,Data Center B,Resolved,Reboot,22.0,8,5,3,24,0
+INC101151,Application Bug,Critical,Database Admin,Head Office,Resolved,Configuration Fix,12.0,22,1,2,4,1
+INC101152,Server Crash,Low,IT Support,Remote Site 2,Resolved,Hardware Replacement,59.0,12,1,5,24,1
+INC101153,Network Outage,Medium,Network Team,Data Center B,Resolved,Configuration Fix,35.0,22,0,11,12,1
+INC101154,Application Bug,Critical,Network Team,Remote Site 1,Resolved,Security Mitigation,27.0,7,5,10,4,1
+INC101155,Server Crash,High,Network Team,Remote Site 1,Resolved,Patch Applied,53.0,13,5,3,8,1
+INC101156,Network Outage,High,Security Team,Data Center B,Resolved,Patch Applied,58.0,20,0,7,8,1
+INC101157,Security Breach,Critical,IT Support,Data Center A,Resolved,Configuration Fix,18.0,1,6,6,4,1
+INC101158,Application Bug,Medium,DevOps,Remote Site 1,Resolved,Reboot,33.0,6,6,9,12,1
+INC101159,Network Outage,Low,IT Support,Head Office,Resolved,Hardware Replacement,31.0,19,2,11,24,1
+INC101160,Security Breach,Low,IT Support,Head Office,Resolved,Configuration Fix,49.0,5,4,6,24,1
+INC101161,Application Bug,High,Network Team,Remote Site 2,Resolved,Configuration Fix,23.0,0,0,1,8,1
+INC101162,Server Crash,Critical,Security Team,Remote Site 1,Resolved,Configuration Fix,12.0,0,3,2,4,1
+INC101163,Database Failure,Critical,Network Team,Head Office,Resolved,Reboot,41.0,21,4,2,4,1
+INC101164,Server Crash,Critical,Security Team,Head Office,Resolved,Configuration Fix,56.0,3,1,11,4,1
+INC101165,Security Breach,High,Database Admin,Head Office,Resolved,Configuration Fix,22.0,17,1,5,8,1
+INC101166,Application Bug,Medium,Database Admin,Remote Site 1,Resolved,Patch Applied,25.0,3,4,1,12,1
+INC101167,Network Outage,Medium,Network Team,Data Center A,Resolved,Patch Applied,34.0,12,6,6,12,1
+INC101168,Application Bug,Critical,IT Support,Remote Site 1,Resolved,Configuration Fix,57.0,22,6,1,4,1
+INC101169,Database Failure,Critical,DevOps,Remote Site 1,Resolved,Reboot,19.0,9,3,2,4,1
+INC101170,Security Breach,Low,Network Team,Head Office,Resolved,Security Mitigation,22.0,15,5,3,24,0
+INC101171,Security Breach,Medium,Database Admin,Data Center A,Resolved,Hardware Replacement,24.0,13,4,6,12,1
+INC101172,Network Outage,Medium,DevOps,Data Center A,Resolved,Reboot,43.0,21,1,10,12,1
+INC101173,Security Breach,Low,DevOps,Head Office,Resolved,Configuration Fix,14.0,12,5,7,24,0
+INC101174,Server Crash,Low,IT Support,Remote Site 1,Closed,Hardware Replacement,62.0,13,3,10,24,1
+INC101175,Security Breach,Low,Security Team,Data Center A,Resolved,Configuration Fix,58.0,23,6,8,24,1
+INC101176,Database Failure,Medium,Network Team,Data Center A,Resolved,Configuration Fix,37.0,14,0,9,12,1
+INC101177,Network Outage,Low,Database Admin,Remote Site 2,Resolved,Hardware Replacement,12.0,4,4,5,24,0
+INC101178,Security Breach,Medium,Network Team,Remote Site 1,Resolved,Patch Applied,3.0,10,2,1,12,0
+INC101179,Server Crash,Critical,DevOps,Head Office,Resolved,Reboot,20.0,21,3,8,4,1
+INC101180,Security Breach,Critical,DevOps,Head Office,Resolved,Configuration Fix,17.0,11,0,11,4,1
+INC101181,Network Outage,High,Database Admin,Data Center B,Resolved,Hardware Replacement,58.0,2,6,6,8,1
+INC101182,Application Bug,High,Database Admin,Remote Site 2,Resolved,Hardware Replacement,12.0,9,4,5,8,1
+INC101183,Security Breach,Medium,DevOps,Remote Site 1,Resolved,Security Mitigation,6.0,17,3,2,12,0
+INC101184,Security Breach,Critical,Network Team,Data Center B,Closed,Security Mitigation,64.0,16,2,11,4,1
+INC101185,Database Failure,Low,Security Team,Remote Site 1,Resolved,Hardware Replacement,11.0,6,2,5,24,0
+INC101186,Security Breach,Medium,Network Team,Head Office,Resolved,Security Mitigation,32.0,5,0,10,12,1
+INC101187,Application Bug,High,Database Admin,Data Center A,Resolved,Reboot,10.0,1,6,7,8,1
+INC101188,Database Failure,Low,Database Admin,Remote Site 1,Resolved,Hardware Replacement,13.0,23,0,5,24,0
+INC101189,Database Failure,High,Security Team,Head Office,Resolved,Security Mitigation,11.0,20,3,7,8,1
+INC101190,Network Outage,Low,DevOps,Data Center B,Resolved,Hardware Replacement,24.0,8,2,9,24,0
+INC101191,Network Outage,Low,DevOps,Head Office,Resolved,Hardware Replacement,59.0,3,2,4,24,1
+INC101192,Database Failure,High,Security Team,Data Center B,Resolved,Reboot,24.0,1,2,3,8,1
+INC101193,Database Failure,High,IT Support,Remote Site 1,Resolved,Reboot,3.0,9,0,7,8,0
+INC101194,Application Bug,Low,IT Support,Data Center B,Closed,Hardware Replacement,62.0,20,6,8,24,1
+INC101195,Application Bug,Critical,Security Team,Remote Site 2,Resolved,Hardware Replacement,47.0,13,4,10,4,1
+INC101196,Security Breach,Low,Network Team,Data Center B,Resolved,Reboot,25.0,17,4,1,24,1
+INC101197,Network Outage,Medium,IT Support,Data Center B,Resolved,Patch Applied,19.0,5,3,6,12,1
+INC101198,Application Bug,Medium,IT Support,Head Office,Closed,Patch Applied,60.0,17,3,9,12,1
+INC101199,Application Bug,Critical,IT Support,Data Center A,Resolved,Hardware Replacement,20.0,16,0,2,4,1
