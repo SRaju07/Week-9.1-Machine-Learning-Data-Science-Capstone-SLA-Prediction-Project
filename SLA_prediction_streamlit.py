@@ -116,27 +116,27 @@ INCIDENT_RULES = {
     }
 }
 
-# --- PRIORITY PRECAUTIONS MATRIX TO AVOID SLA BREACH TIME ---
+# --- SHORT KEY POINTS PRECAUTIONS MATRIX ---
 PRIORITY_PRECAUTIONS = {
     "Critical": [
-        "**Immediate PagerDuty Escalation:** Automatically page the Secondary On-Call engineer if unacknowledged within 5 minutes.",
-        "**Bridge Call Enactment:** Instantly open an emergency Incident Command bridge line with DevOps and Network leads.",
-        "**Hot Failover Rollback:** Do not troubleshoot live; execute an immediate traffic reroute to the disaster recovery node."
+        "**5-Min Page:** Alert backup engineer instantly if primary doesn't answer.",
+        "**Bridge Call:** Start a bridge call with team leads immediately.",
+        "**Failover Switch:** Switch users to a backup server right away instead of troubleshooting."
     ],
     "High": [
-        "**Queue Prioritization:** Automatically bump this ticket to the top of the assigned team's daily operational sprint queue.",
-        "**Management Alert:** Notify the team Lead or Supervisor via automated Slack alert that a 2-hour warning threshold is active.",
-        "**Resource Lock:** Temporarily freeze scheduled maintenance work for assigned technicians until this ticket is in active triage."
+        "**Top of Queue:** Move the ticket straight to the top of the daily to-do list.",
+        "**Supervisor Alert:** Automatically alert mail to boss at the 2-hour warning mark.",
+        "**Freeze Minor Tasks:** Pause routine, non-urgent work to focus on this issue."
     ],
     "Medium": [
-        "**Active Triage Window Check:** Ensure an engineer actively picks up and validates the configuration parameters within 2 hours.",
-        "**Shift-Over Monitoring:** If the ticket is unresolved near shift handoff, explicitly tag the incoming engineer to prevent log drop-off.",
-        "**Automation Assistance:** Execute remote telemetry collection diagnostics to minimize the manual discovery phase."
+        "**2-Hour Pickup:** Claim and check the ticket within 2 hours of opening.",
+        "**Tag Handover:** Directly pass the ticket to the next shift engineer if unresolved.",
+        "**Auto-Diagnostics:** Run automatic tools immediately to collect error logs."
     ],
     "Low": [
-        "**First-In-First-Out (FIFO) Validation:** Review total ticket volume age to ensure this request doesn't get buried past 24 hours.",
-        "**Automated User Check-in:** Set up a 12-hour follow-up trigger message to confirm if the user's symptoms are still persisting.",
-        "**Capacity Backlog Balancing:** Route to alternative regional helpdesk centers if the primary local queue is highly congested."
+        "**Age Check:** Review older tickets so they do not get buried by new ones.",
+        "**12-Hour Ping:** Send an automatic message to the user to check if the issue persists.",
+        "**Queue Reroute:** Pass the ticket to a free helpdesk in another region if local teams are busy."
     ]
 }
 
@@ -231,12 +231,12 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
         
         if is_breached:
             st.error(f"⚠ Possible SLA Breach Risk Flagged for {priority} Priority")
-            st.markdown(f'<div class="result-row" style="margin-top: 15px;"><span class="bold-value" style="color: #D97706;">🚨 Required Precautions to Protect {priority} SLA ({sla_hours}h Limit):</span></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="result-row" style="margin-top: 15px;"><span class="bold-value" style="color: #D97706;">🚨 Required Precautions to Avoid Breach ({sla_hours}h Limit):</span></div>', unsafe_allow_html=True)
             precautions_html = "".join([f"<li>{p}</li>" for p in PRIORITY_PRECAUTIONS[priority]])
             st.markdown(f'<div class="precaution-box"><ul>{precautions_html}</ul></div>', unsafe_allow_html=True)
         else:
             st.success(f"✅ SLA Likely To Meet for {priority} Priority")
-            st.markdown(f'<div class="result-row" style="margin-top: 15px;"><span class="bold-value" style="color: #059669;">🛡 Standard Protocol Checklist for {priority} Tickets:</span></div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="result-row" style="margin-top: 15px;"><span class="bold-value" style="color: #059669;">🛡 Standard Protocol Checklist ({sla_hours}h Limit):</span></div>', unsafe_allow_html=True)
             precautions_html = "".join([f"<li>{p}</li>" for p in PRIORITY_PRECAUTIONS[priority]])
             st.markdown(f'<div class="precaution-box" style="border-left-color: #10B981; background-color: #ECFDF5;"><ul>{precautions_html}</ul></div>', unsafe_allow_html=True)
             
