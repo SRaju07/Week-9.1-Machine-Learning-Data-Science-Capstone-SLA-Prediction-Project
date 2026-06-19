@@ -48,91 +48,96 @@ st.markdown("""
         border-radius: 4px;
         margin-top: 8px;
     }
+    
+    /* Precaution Box Styling */
+    .precaution-box {
+        background-color: #FFFBEB;
+        border-left: 4px solid #F59E0B;
+        padding: 12px;
+        border-radius: 4px;
+        margin-top: 8px;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 # --- ENTERPRISE IT TITLE WITH IT PROFESSIONAL ICON ---
 st.title("🧑‍💻 Enterprise IT SLA Intelligence Dashboard")
 
-# --- DATA ROUTING MATRIX WITH SHORTENED IT-FRIENDLY KEYWORD REASONS ---
+# --- DATA ROUTING MATRIX FOR INCIDENTS ---
 INCIDENT_RULES = {
     "Outlook / Email Issue": {
-        "category": "Software",
-        "team": "DevOps",
-        "team_display": "MS Office Team",
-        "remote": "Yes",
+        "category": "Software", "team": "DevOps", "team_display": "MS Office Team", "remote": "Yes",
         "reasons": [
-            "**Cloud Sync Failure:** Broken connection between local systems and Microsoft cloud.",
-            "**Corrupted Local Index:** Damaged email cache files forcing a slow, complete history rebuild.",
-            "**Authentication Expiry:** Outdated or expired security tokens blocking automated login access."
+            "**Cloud Sync Failure:** Broken connection between local systems and cloud services.",
+            "**Corrupted Local Index:** Damaged email cache files forcing a slow, complete history rebuild."
         ]
     },
     "VPN Issue": {
-        "category": "Network",
-        "team": "DevOps",
-        "team_display": "Applications Team",
-        "remote": "Yes",
+        "category": "Network", "team": "DevOps", "team_display": "Applications Team", "remote": "Yes",
         "reasons": [
-            "**ISP Bandwidth Throttling:** Local provider congestion making connection speeds too slow.",
-            "**Gateway Timeout:** Authentication server took too long to reply or token expired.",
+            "**ISP Bandwidth Throttling:** Local provider congestion slowing connection speeds down.",
             "**Tunnel Capacity Maxed:** Maximum concurrent user limit reached on the corporate gateway."
         ]
     },
     "Firewall Outage": {
-        "category": "Security Breach",
-        "team": "Network Team",
-        "team_display": "Network Team",
-        "remote": "Yes",
+        "category": "Security Breach", "team": "Network Team", "team_display": "Network Team", "remote": "Yes",
         "reasons": [
             "**Bad Policy Deployment:** Faulty security rule update blocking legitimate traffic.",
-            "**Resource Exhaustion:** Hardware CPU/Memory overloaded by high traffic volumes.",
-            "**Failover Desync:** Failover backup line routing propagation delays."
+            "**Resource Exhaustion:** Hardware CPU/Memory overloaded by high traffic volumes."
         ]
     },
     "Database Failure": {
-        "category": "Database Failure",
-        "team": "Database Admin",
-        "team_display": "Database Team",
-        "remote": "Yes",
+        "category": "Database Failure", "team": "Database Admin", "team_display": "Database Team", "remote": "Yes",
         "reasons": [
             "**Query Deadlocks:** Conflicting heavy queries locking the same database tables.",
-            "**Transaction Log Full:** Storage drive full from diary logging, blocking new changes.",
-            "**Replication Lag:** Primary database halted due to slow backup sync replication."
+            "**Transaction Log Full:** Storage drive full from diary logging, blocking new changes."
         ]
     },
     "Server Crash": {
-        "category": "Server Crash",
-        "team": "DevOps",
-        "team_display": "Infrastructure Team",
-        "remote": "Yes",
+        "category": "Server Crash", "team": "DevOps", "team_display": "Infrastructure Team", "remote": "Yes",
         "reasons": [
             "**Kernel Panic / Memory Leak:** System memory leak or fatal OS crash.",
-            "**Hardware Component Failure:** Power supply unit (PSU) or drive array physical failure.",
             "**Cascading Application Error:** Unhandled bad deployment causing a domino-effect crash."
         ]
     },
     "Motherboard": {
-        "category": "Hardware", 
-        "team": "IT Support",
-        "team_display": "IT Support Team",
-        "remote": "No",
+        "category": "Hardware", "team": "IT Support", "team_display": "IT Support Team", "remote": "No",
         "reasons": [
             "**Supply Chain Delay:** Required replacement spare parts pending courier delivery.",
-            "**User Availability:** Device physical turnover delayed by user scheduling conflicts.",
-            "**Complex Diagnostics:** Lengthy manual teardown and circuit board diagnostic testing."
+            "**User Availability:** Device physical turnover delayed by user scheduling conflicts."
         ]
     },
     "Wi-Fi Connectivity Drop": {
-        "category": "Network",
-        "team": "Network Team",
-        "team_display": "Network Team",
-        "remote": "No",
+        "category": "Network", "team": "Network Team", "team_display": "Network Team", "remote": "No",
         "reasons": [
             "**Access Point Outage:** Physical PoE wall/ceiling AP unit power drop.",
-            "**RF Interference:** Heavy appliance or rogue electronic frequencies disrupting signals.",
-            "**Structural Attenuation:** Thick concrete, metal deck framing, or dense glass obstacles."
+            "**RF Interference:** Heavy appliance or rogue electronic frequencies disrupting signals."
         ]
     }
+}
+
+# --- PRIORITY PRECAUTIONS MATRIX TO AVOID SLA BREACH TIME ---
+PRIORITY_PRECAUTIONS = {
+    "Critical": [
+        "**Immediate PagerDuty Escalation:** Automatically page the Secondary On-Call engineer if unacknowledged within 5 minutes.",
+        "**Bridge Call Enactment:** Instantly open an emergency Incident Command bridge line with DevOps and Network leads.",
+        "**Hot Failover Rollback:** Do not troubleshoot live; execute an immediate traffic reroute to the disaster recovery node."
+    ],
+    "High": [
+        "**Queue Prioritization:** Automatically bump this ticket to the top of the assigned team's daily operational sprint queue.",
+        "**Management Alert:** Notify the team Lead or Supervisor via automated Slack alert that a 2-hour warning threshold is active.",
+        "**Resource Lock:** Temporarily freeze scheduled maintenance work for assigned technicians until this ticket is in active triage."
+    ],
+    "Medium": [
+        "**Active Triage Window Check:** Ensure an engineer actively picks up and validates the configuration parameters within 2 hours.",
+        "**Shift-Over Monitoring:** If the ticket is unresolved near shift handoff, explicitly tag the incoming engineer to prevent log drop-off.",
+        "**Automation Assistance:** Execute remote telemetry collection diagnostics to minimize the manual discovery phase."
+    ],
+    "Low": [
+        "**First-In-First-Out (FIFO) Validation:** Review total ticket volume age to ensure this request doesn't get buried past 24 hours.",
+        "**Automated User Check-in:** Set up a 12-hour follow-up trigger message to confirm if the user's symptoms are still persisting.",
+        "**Capacity Backlog Balancing:** Route to alternative regional helpdesk centers if the primary local queue is highly congested."
+    ]
 }
 
 def get_sla_target(priority):
@@ -165,7 +170,6 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
     now = datetime.now()
     sla_hours = get_sla_target(priority)
     
-    # EXACT column structure required by preprocessor.pkl configuration matrix
     input_data = pd.DataFrame([{
         "Incident_ID": "INC100000",   
         "Incident_Type": auto_data["category"],
@@ -182,32 +186,32 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
     }])
     
     try:
-        # Load pipeline components
         preprocessor = joblib.load("preprocessor.pkl")
         rfe = joblib.load("rfe_selector.pkl")
         model = joblib.load("SLA_prediction_model.pkl")
         
-        # Sequentially pipeline feature conversions
         X_enc = preprocessor.transform(input_data)
         X_rfe = rfe.transform(X_enc)
         
         prediction = model.predict(X_rfe)[0]
         
-        # Use predict_proba if decision tree configuration exposes it, else look at binary output
         try:
             probabilities = model.predict_proba(X_rfe)[0]
             risk_score = int(probabilities[1] * 100)
         except AttributeError:
-            risk_score = 98 if prediction == 1 else 15
+            risk_score = 85 if prediction == 1 else 15
         
-        # Priority mapping rule configurations incorporating specific test metrics
-        if priority == "Medium":
-            risk_score = 98
-            pred_resolution = 14.8
-            is_breached = True
+        # Hour Assignments Based on Selection
+        if priority == "Critical":
+            pred_resolution = 3.5
+        elif priority == "High":
+            pred_resolution = 7.2
+        elif priority == "Medium":
+            pred_resolution = 11.5  
         else:
-            pred_resolution = 3.5 if priority == "Critical" else (7.2 if priority == "High" else 21.4)
-            is_breached = (prediction == 1 or risk_score > 50)
+            pred_resolution = 21.4
+            
+        is_breached = (pred_resolution > sla_hours) or (prediction == 1 or risk_score > 50)
             
         st.markdown("<br><hr>", unsafe_allow_html=True)
         
@@ -226,12 +230,17 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
         st.markdown("<br>", unsafe_allow_html=True)
         
         if is_breached:
-            st.error("⚠ Possible SLA Breach Risk Flagged")
+            st.error(f"⚠ Possible SLA Breach Risk Flagged for {priority} Priority")
+            st.markdown(f'<div class="result-row" style="margin-top: 15px;"><span class="bold-value" style="color: #D97706;">🚨 Required Precautions to Protect {priority} SLA ({sla_hours}h Limit):</span></div>', unsafe_allow_html=True)
+            precautions_html = "".join([f"<li>{p}</li>" for p in PRIORITY_PRECAUTIONS[priority]])
+            st.markdown(f'<div class="precaution-box"><ul>{precautions_html}</ul></div>', unsafe_allow_html=True)
         else:
-            st.success("✅ SLA Likely To Meet")
+            st.success(f"✅ SLA Likely To Meet for {priority} Priority")
+            st.markdown(f'<div class="result-row" style="margin-top: 15px;"><span class="bold-value" style="color: #059669;">🛡 Standard Protocol Checklist for {priority} Tickets:</span></div>', unsafe_allow_html=True)
+            precautions_html = "".join([f"<li>{p}</li>" for p in PRIORITY_PRECAUTIONS[priority]])
+            st.markdown(f'<div class="precaution-box" style="border-left-color: #10B981; background-color: #ECFDF5;"><ul>{precautions_html}</ul></div>', unsafe_allow_html=True)
             
         st.markdown('<div class="result-row" style="margin-top: 15px;"><span class="bold-value">Common Reasons for Potential SLA Breach:</span></div>', unsafe_allow_html=True)
-        
         reasons_html = "".join([f"<li>{r}</li>" for r in auto_data["reasons"]])
         st.markdown(f'<div class="reason-box"><ul>{reasons_html}</ul></div>', unsafe_allow_html=True)
             
