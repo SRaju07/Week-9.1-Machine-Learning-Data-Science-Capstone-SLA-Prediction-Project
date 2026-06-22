@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from datetime import datetime, combine
+from datetime import datetime
 
 # --- PAGE LAYOUT CONFIGURATION ---
 st.set_page_config(
@@ -186,13 +186,13 @@ with col_time1:
     st.write("**Reported Timestamp**")
     reported_date = st.date_input("Reported Date", datetime.now().date(), key="rep_date")
     reported_time = st.time_input("Reported Time", datetime.now().time(), key="rep_time")
-    reported_datetime = combine(reported_date, reported_time)
+    reported_datetime = datetime.combine(reported_date, reported_time)
 
 with col_time2:
     st.write("**Target / Resolved Timestamp**")
     resolved_date = st.date_input("Resolved Date", datetime.now().date(), key="res_date")
     resolved_time = st.time_input("Resolved Time", datetime.now().time(), key="res_time")
-    resolved_datetime = combine(resolved_date, resolved_time)
+    resolved_datetime = datetime.combine(resolved_date, resolved_time)
 
 # Calculate dynamic operational processing duration from fields
 time_delta = resolved_datetime - reported_datetime
