@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from datetime import datetime
+from datetime import datetime,組合
 
 # --- PAGE LAYOUT CONFIGURATION ---
 st.set_page_config(
@@ -26,6 +26,7 @@ st.markdown("""
         margin-bottom: 20px;
         border-bottom: 2px solid #F1F5F9;
         padding-bottom: 10px;
+        margin-top: 20px;
     }
 
     /* Output Results Plain Styling Labels */
@@ -163,11 +164,32 @@ with col2:
     st.text_input("Assigned Correct Team:", value=auto_data["team_display"], disabled=True)
     st.text_input("Is Remote Resolvable:", value=auto_data["remote"], disabled=True)
 
+# --- NEW REPORTED & RESOLVED TIMESTAMPS SELECTORS ---
+st.markdown('<div class="section-title">⏱️ Ticket Lifecycle Timeline</div>', unsafe_allow_html=True)
+
+col_time1, col_time2 = st.columns(2)
+
+with col_time1:
+    st.write("**Reported Timestamp**")
+    reported_date = st.date_input("Reported Date", datetime.now().date(), key="rep_date")
+    reported_time = st.time_input("Reported Time", datetime.now().time(), key="rep_time")
+    reported_datetime = datetime.combine(reported_date, reported_time)
+
+with col_time2:
+    st.write("**Target / Resolved Timestamp**")
+    resolved_date = st.date_input("Resolved Date", datetime.now().date(), key="res_date")
+    resolved_time = st.time_input("Resolved Time", datetime.now().time(), key="res_time")
+    resolved_datetime = datetime.combine(resolved_date, resolved_time)
+
+# Calculate real processing duration from the interface inputs
+time_delta = resolved_datetime - reported_datetime
+actual_duration_hours = max(0.0, time_delta.total_seconds() / 3600.0)
+
+st.info(f"⏳ Evaluated Duration from Inputs: **{actual_duration_hours:.2f} Hours**")
 st.markdown("<br>", unsafe_allow_html=True)
 
 # --- ML PREDICTION INFERENCE ---
 if st.button("Predict SLA Completion", use_container_width=True, type="primary"):
-    now = datetime.now()
     sla_hours = get_sla_target(priority)
     
     input_data = pd.DataFrame([{
@@ -178,10 +200,10 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
         "Location": "Head Office",
         "Status": "Resolved",
         "Resolution_Type": "Reboot" if auto_data["category"] != "Hardware" else "Hardware Replacement",
-        "Resolution_Time_Hours": float(sla_hours * 0.8),
-        "Hour": now.hour, 
-        "Day": now.weekday(), 
-        "Month": now.month,
+        "Resolution_Time_Hours": float(actual_duration_hours), # Now mapping dynamically to user selections
+        "Hour": reported_datetime.hour, 
+        "Day": reported_datetime.weekday(), 
+        "Month": reported_datetime.month,
         "SLA_Limit": sla_hours
     }])
     
@@ -211,7 +233,7 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
         else:
             pred_resolution = 21.4
             
-        is_breached = (pred_resolution > sla_hours) or (prediction == 1 or risk_score > 50)
+        is_breached = (pred_resolution > sla_hours) or (prediction == 1 or risk_score > 50) or (actual_duration_hours > sla_hours)
             
         st.markdown("<br><hr>", unsafe_allow_html=True)
         
@@ -222,8 +244,9 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
         st.markdown(f'<div class="result-row">Remote Resolvable : <span class="bold-value">{auto_data["remote"]}</span></div>', unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
         
-        st.markdown(f'<div class="result-row">Predicted Resolution : <span class="bold-value">{pred_resolution} Hours</span></div>', unsafe_allow_html=True)
-        st.markdown(f'<div class="result-row">SLA Target : <span class="bold-value">{sla_hours} Hours</span></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="result-row">Input Record Duration : <span class="bold-value">{actual_duration_hours:.2f} Hours</span></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="result-row">Predicted Target Baseline : <span class="bold-value">{pred_resolution} Hours</span></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="result-row">SLA Limit Target : <span class="bold-value">{sla_hours} Hours</span></div>', unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
         
         st.markdown(f'<div class="result-row">Risk Score : <span class="bold-value">{risk_score}%</span></div>', unsafe_allow_html=True)
