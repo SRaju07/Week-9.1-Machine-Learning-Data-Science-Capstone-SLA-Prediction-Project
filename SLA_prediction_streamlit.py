@@ -62,7 +62,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- ENTERPRISE IT TITLE WITH IT PROFESSIONAL ICON ---
-st.title("🧑‍💻 Enterprise IT SLA Intelligence Dashboard")
+st.title("🧑‍💻 AI-Powered Predictive SLA Breach Management")
 
 # --- DATA ROUTING MATRIX FOR INCIDENTS ---
 INCIDENT_RULES = {
