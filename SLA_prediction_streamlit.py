@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from datetime import datetime,組合
+from datetime import datetime, combine
 
 # --- PAGE LAYOUT CONFIGURATION ---
 st.set_page_config(
@@ -26,7 +26,7 @@ st.markdown("""
         margin-bottom: 20px;
         border-bottom: 2px solid #F1F5F9;
         padding-bottom: 10px;
-        margin-top: 20px;
+        margin-top: 25px;
     }
 
     /* Output Results Plain Styling Labels */
@@ -164,7 +164,20 @@ with col2:
     st.text_input("Assigned Correct Team:", value=auto_data["team_display"], disabled=True)
     st.text_input("Is Remote Resolvable:", value=auto_data["remote"], disabled=True)
 
-# --- NEW REPORTED & RESOLVED TIMESTAMPS SELECTORS ---
+# --- OPERATIONAL CONTEXT INPUTS ---
+st.markdown('<div class="section-title">⚙️ Operational Context Inputs</div>', unsafe_allow_html=True)
+
+col3, col4, col5 = st.columns(3)
+with col3:
+    user_location = st.selectbox("Location:", ["Head Office", "Regional Branch", "Remote / Home Office", "Data Center"])
+with col4:
+    user_status = st.selectbox("Status:", ["New", "In Progress", "Pending Customer", "Resolved"], index=2)
+with col5:
+    default_res = ["Reboot", "Patch Update", "Configuration Change", "Hardware Replacement"]
+    res_index = 3 if auto_data["category"] == "Hardware" else 0
+    user_resolution_type = st.selectbox("Resolution Type:", default_res, index=res_index)
+
+# --- REPORTED & RESOLVED TIMESTAMPS SELECTORS ---
 st.markdown('<div class="section-title">⏱️ Ticket Lifecycle Timeline</div>', unsafe_allow_html=True)
 
 col_time1, col_time2 = st.columns(2)
@@ -173,15 +186,15 @@ with col_time1:
     st.write("**Reported Timestamp**")
     reported_date = st.date_input("Reported Date", datetime.now().date(), key="rep_date")
     reported_time = st.time_input("Reported Time", datetime.now().time(), key="rep_time")
-    reported_datetime = datetime.combine(reported_date, reported_time)
+    reported_datetime = combine(reported_date, reported_time)
 
 with col_time2:
     st.write("**Target / Resolved Timestamp**")
     resolved_date = st.date_input("Resolved Date", datetime.now().date(), key="res_date")
     resolved_time = st.time_input("Resolved Time", datetime.now().time(), key="res_time")
-    resolved_datetime = datetime.combine(resolved_date, resolved_time)
+    resolved_datetime = combine(resolved_date, resolved_time)
 
-# Calculate real processing duration from the interface inputs
+# Calculate dynamic operational processing duration from fields
 time_delta = resolved_datetime - reported_datetime
 actual_duration_hours = max(0.0, time_delta.total_seconds() / 3600.0)
 
@@ -197,10 +210,10 @@ if st.button("Predict SLA Completion", use_container_width=True, type="primary")
         "Incident_Type": auto_data["category"],
         "Priority": priority,
         "Assigned_Department": auto_data["team"],
-        "Location": "Head Office",
-        "Status": "Resolved",
-        "Resolution_Type": "Reboot" if auto_data["category"] != "Hardware" else "Hardware Replacement",
-        "Resolution_Time_Hours": float(actual_duration_hours), # Now mapping dynamically to user selections
+        "Location": user_location,
+        "Status": user_status,
+        "Resolution_Type": user_resolution_type,
+        "Resolution_Time_Hours": float(actual_duration_hours),
         "Hour": reported_datetime.hour, 
         "Day": reported_datetime.weekday(), 
         "Month": reported_datetime.month,
