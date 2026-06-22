@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- PAGE LAYOUT CONFIGURATION ---
 st.set_page_config(
-    page_title="AI-Powered Predictive SLA Breach Management Dashboard",
+    page_title="AI-Powered Predictive SLA Breach Management",
     page_icon="💻",
     layout="centered"
 )
